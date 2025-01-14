@@ -1,0 +1,59 @@
+{
+  "name": "ragim",
+  "version": "1.0.0",
+  "description": "Retrival Augmented Generation with Inference and Memory",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run test",
+    "start": "nodemon dist/index.js"
+  },
+  "keywords": [
+    "RAG"
+  ],
+  "author": "mab-007",
+  "license": "ISC",
+  "dependencies": {
+    "@google-ai/generativelanguage": "^2.8.0",
+    "@google/generative-ai": "^0.21.0",
+    "@supabase/supabase-js": "^2.46.2",
+    "@xenova/transformers": "^2.17.2",
+    "axios": "^1.7.7",
+    "base-64": "^1.0.0",
+    "body-parser": "^1.20.3",
+    "compromise": "^14.14.3",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.20.0",
+    "express-async-errors": "^3.1.1",
+    "fs": "^0.0.1-security",
+    "google-auth-library": "^9.15.0",
+    "helmet": "^7.1.0",
+    "http-status-codes": "^2.3.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.6.1",
+    "openn": "^1.0.0",
+    "pos": "^0.4.2",
+    "puppeteer": "^23.11.1",
+    "puppeteer-core": "^23.11.1",
+    "reflect-metadata": "^0.2.2",
+    "robotjs": "^0.6.0",
+    "screen-resolution": "^1.0.0",
+    "selenium-webdriver": "^4.27.0",
+    "ts-express-decorators": "^5.67.2",
+    "uuid": "^10.0.0",
+    "wink-nlp-utils": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/crypto-js": "^4.2.2",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^22.10.2",
+    "@types/uuid": "^10.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}

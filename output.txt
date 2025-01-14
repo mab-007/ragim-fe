@@ -1,0 +1,3008 @@
+<html lang="en" data-glue="glue@28.2.0" style="--scrollbar-width: 0px;"><head>
+    <meta charset="utf-8">
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width" name="viewport">
+    <title>Google DeepMind</title>
+    
+  <meta name="description" content="Artificial intelligence could be one of humanity’s most useful inventions. We research and build safe artificial intelligence systems. We're committed to solving intelligence, to advance science...">
+  <link rel="canonical" href="https://deepmind.google/">
+
+  <meta property="og:title" content="Google DeepMind">
+  <meta property="og:description" content="Artificial intelligence could be one of humanity’s most useful inventions. We research and build safe artificial intelligence systems. We're committed to solving intelligence, to advance science...">
+  <meta property="og:image" content="https://lh3.googleusercontent.com/E2UU4A-zCZ9b_oZyE_xQIeAZpDbjpcmw99-QVYVXs81UpJKnBzTo4O81rWapIqIfOAr39WSFMo336ekSH4_Z25BHiDamvwtQEKlSteg260fZhCwJ=w1200-h630-n-nu">
+  <meta property="og:url" content="https://deepmind.google/">
+  <meta property="og:site_name" content="Google DeepMind">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Google DeepMind">
+  <meta name="twitter:description" content="Artificial intelligence could be one of humanity’s most useful inventions. We research and build safe artificial intelligence systems. We're committed to solving intelligence, to advance science...">
+  <meta property="twitter:image:src" content="https://lh3.googleusercontent.com/E2UU4A-zCZ9b_oZyE_xQIeAZpDbjpcmw99-QVYVXs81UpJKnBzTo4O81rWapIqIfOAr39WSFMo336ekSH4_Z25BHiDamvwtQEKlSteg260fZhCwJ=w1600-h900-n-nu">
+  <meta name="twitter:url" content="https://deepmind.google/">
+  <meta name="twitter:site" content="@GoogleDeepMind">
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Google DeepMind Blog" href="/blog/rss.xml">
+
+
+    <link rel="apple-touch-icon" href="https://www.gstatic.com/images/branding/productlogos/google_deepmind/v3/web-96dp/logo_google_deepmind_color_2x_web_96dp.png">
+    <link rel="icon" type="image/x-icon" sizes="32x32" href="/static/icons/google_deepmind_32dp.c67bb05568f4.ico">
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="/static/icons/google_deepmind_16dp.52cc3dfbfeb1.ico">
+    <link rel="icon" type="image/x-icon" sizes="any" href="/static/icons/google_deepmind_alldp.63e20eacc8f4.ico">
+    <link rel="icon" type="image/svg+xml" href="/static/icons/google_deepmind_48dp.5b470587fe7d.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Product+Sans&amp;family=Google+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;family=Google+Sans+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Product+Sans&amp;family=Google+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;family=Google+Sans+Text:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap">
+    <link href="https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.css" rel="stylesheet">
+    <link href="/static/main.min.878fb010d534.css" rel="stylesheet">
+    
+  <link href="/static/gemini.min.da8249b5fa05.css" rel="stylesheet">
+  
+
+  </head>
+  <body class="glue-body gdm gdm--dark gdm--gemini home-page js" style="--mono-foreground:#ffffff;">
+    
+  
+  
+
+  <header class="glue-header glue-header--no-cta gdm-header gdm-header--mono gdm-header--transparent glue-header-stepped-nav-enabled" aria-expanded="false">
+    <a href="#content" class="glue-header__link glue-header__skip-content">
+      Jump to Content
+    </a>
+    <div class="glue-header__bar glue-header__bar--mobile">
+      <div class="glue-header__tier">
+        <div class="glue-header__container">
+          <div class="glue-header__lock-up">
+            <div class="glue-header__hamburger">
+              <button class="glue-header__drawer-toggle-btn" aria-label="Open the navigation drawer" aria-controls="glue-drawer-1638ec3" aria-expanded="false" aria-haspopup="true">
+                <svg aria-hidden="true" class="glue-icon glue-icon--24px" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#menu"></use>
+  </svg>
+              </button>
+            </div>
+            <div class="gdm-header__search-wrapper gdm-header__search-wrapper--mobile">
+              <div class="glue-header__logo">
+    <a class="glue-header__logo-link" data-gtm-tag="header-selection" href="/">
+      <div class="glue-header__logo-container">
+        <span class="glue-visually-hidden">Google</span>
+        <svg aria-hidden="true" class="glue-icon glue-header__logo-svg" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#google-logo-adjustable"></use>
+  </svg>
+      </div>
+      <span class="glue-header__logo--product">DeepMind</span>
+    </a>
+  </div>
+              
+                <div class="gdm-header__search-container">
+                  <form action="/search/" method="get" role="search" class="gdm-header__search-form">
+    <div class="glue-form__element">
+      <label class="mdc-text-field mdc-text-field--outlined glue-text-field mdc-text-field--with-leading-icon mdc-text-field--no-label" data-mdc-auto-init="MDCTextField" data-mdc-auto-init-state="initialized">
+        <span class="gdm-header__search-label" id="search-mobile-label">Search...</span>
+        <svg aria-hidden="true" class="glue-icon material-icons mdc-text-field__icon mdc-text-field__icon--leading gdm-header__icon" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#search"></use>
+  </svg>
+        <input class="mdc-text-field__input" name="query" type="text" id="search-mobile" autocomplete="off" maxlength="320" placeholder="Search..." aria-haspopup="listbox" aria-controls="search-mobile-autocomplete" aria-labelledby="search-mobile-label">
+        <span class="mdc-notched-outline mdc-notched-outline--no-label">
+          <span class="mdc-notched-outline__leading"></span>
+          <span class="mdc-notched-outline__trailing"></span>
+        </span>
+      </label>
+    </div>
+    <div class="gdm-header__autocomplete">
+      <ul class="gdm-autocomplete__list" id="search-mobile-autocomplete" aria-labelledby="search-mobile" aria-live="polite"></ul>
+      
+      <!-- input type="submit" value="Show More" class="glue-button glue-button--low-emphasis gdm-autocomplete__show-more" -->
+    </div>
+  </form>
+                  <a aria-controls="search-mobile" class="glue-header__link gdm-header__icon-button gdm-header__toggle-button" data-hide-label="Close search" data-show-label="Open search" href="/search" role="button" aria-label="Open search">
+    <span class="glue-visually-hidden gdm-header__search-text">Search</span>
+    <span class="glue-visually-hidden gdm-header__close-text">Close</span>
+    <svg aria-hidden="true" class="glue-icon glue-icon--24px gdm-header__search-icon" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#search"></use>
+  </svg>
+    <svg aria-hidden="true" class="glue-icon glue-icon--24px gdm-header__close-icon" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#close"></use>
+  </svg>
+  </a>
+                </div>
+              
+            </div>
+            <div class="gdm-header__gemini gdm-header__gemini--mobile">
+    <a aria-label="Chat with Gemini" class="glue-header__link gdm-header__icon-button" href="https://gemini.google.com/?utm_source=deepmind.google&amp;utm_medium=referral&amp;utm_campaign=gdm&amp;utm_content=" rel="noopener" target="_blank">
+      <svg aria-hidden="true" class="glue-icon glue-icon--24px" role="presentation">
+    <use href="/static/icons/icons.4f32e13e021e.svg#gemini"></use>
+  </svg>
+    </a>
+  </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="glue-header__bar glue-header__bar--desktop glue-header__drawer" id="glue-drawer-1638ec3" style="position: static; top: -64px;">
+      <div class="glue-header__tier">
+        <div class="glue-header__container">
+          <div class="glue-header__lock-up">
+            <div class="glue-header__logo">
+    <a class="glue-header__logo-link" data-gtm-tag="header-selection" href="/">
+      <div class="glue-header__logo-container">
+        <span class="glue-visually-hidden">Google</span>
+        <svg aria-hidden="true" class="glue-icon glue-header__logo-svg" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#google-logo-adjustable"></use>
+  </svg>
+      </div>
+      <span class="glue-header__logo--product">DeepMind</span>
+    </a>
+  </div>
+          </div>
+        </div>
+        <div class="glue-header__container glue-header__stepped-nav" role="navigation" tabindex="0">
+          <div class="glue-header__stepped-nav-controls-container">
+            
+          <div class="glue-header__stepped-nav-controls glue-stepped-page glue-header__link glue-stepped-page-1 glue-is-shown" data-glue-steppednav-label="$glue_steppednav_label$, Navigate back to parent menu, $glue_steppednav_label$ opened" tabindex="-1" id="glue-stepped-page-79885458">
+              <div class="glue-header__stepped-nav-controls-arrow">
+                <svg aria-hidden="true" class="glue-icon glue-icon--18px" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#chevron-left"></use>
+  </svg>
+                
+              </div>
+              <div class="glue-header__stepped-nav-controls-title glue-header__link"></div>
+            </div><div class="glue-header__stepped-nav-controls glue-stepped-page glue-header__link glue-stepped-page-2" data-glue-steppednav-label="$glue_steppednav_label$, Navigate back to parent menu, $glue_steppednav_label$ opened" data-glue-stepped-nav-parent-index="1" tabindex="-1" aria-label="About, Navigate back to parent menu, About opened" role="button" id="glue-stepped-page-15129116" aria-hidden="true">
+              <div class="glue-header__stepped-nav-controls-arrow">
+                <svg aria-hidden="true" class="glue-icon glue-icon--18px" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#chevron-left"></use>
+  </svg>
+                
+              </div>
+              <div class="glue-header__stepped-nav-controls-title glue-header__link">About</div>
+            </div><div class="glue-header__stepped-nav-controls glue-stepped-page glue-header__link glue-stepped-page-3" data-glue-steppednav-label="$glue_steppednav_label$, Navigate back to parent menu, $glue_steppednav_label$ opened" data-glue-stepped-nav-parent-index="1" tabindex="-1" aria-label="Research, Navigate back to parent menu, Research opened" role="button" id="glue-stepped-page-14495203" aria-hidden="true">
+              <div class="glue-header__stepped-nav-controls-arrow">
+                <svg aria-hidden="true" class="glue-icon glue-icon--18px" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#chevron-left"></use>
+  </svg>
+                
+              </div>
+              <div class="glue-header__stepped-nav-controls-title glue-header__link">Research</div>
+            </div><div class="glue-header__stepped-nav-controls glue-stepped-page glue-header__link glue-stepped-page-4" data-glue-steppednav-label="$glue_steppednav_label$, Navigate back to parent menu, $glue_steppednav_label$ opened" data-glue-stepped-nav-parent-index="1" tabindex="-1" aria-label="Technologies, Navigate back to parent menu, Technologies opened" role="button" id="glue-stepped-page-48712235" aria-hidden="true">
+              <div class="glue-header__stepped-nav-controls-arrow">
+                <svg aria-hidden="true" class="glue-icon glue-icon--18px" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#chevron-left"></use>
+  </svg>
+                
+              </div>
+              <div class="glue-header__stepped-nav-controls-title glue-header__link">Technologies</div>
+            </div><div class="glue-header__stepped-nav-controls glue-stepped-page glue-header__link glue-stepped-page-5" data-glue-steppednav-label="$glue_steppednav_label$, Navigate back to parent menu, $glue_steppednav_label$ opened" data-glue-stepped-nav-parent-index="4" tabindex="-1" aria-label="Veo, Navigate back to parent menu, Veo opened" role="button" id="glue-stepped-page-73903821" aria-hidden="true">
+              <div class="glue-header__stepped-nav-controls-arrow">
+                <svg aria-hidden="true" class="glue-icon glue-icon--18px" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#chevron-left"></use>
+  </svg>
+                
+              </div>
+              <div class="glue-header__stepped-nav-controls-title glue-header__link">Veo</div>
+            </div><div class="glue-header__stepped-nav-controls glue-stepped-page glue-header__link glue-stepped-page-6" data-glue-steppednav-label="$glue_steppednav_label$, Navigate back to parent menu, $glue_steppednav_label$ opened" data-glue-stepped-nav-parent-index="4" tabindex="-1" aria-label="AlphaFold, Navigate back to parent menu, AlphaFold opened" role="button" id="glue-stepped-page-61729435" aria-hidden="true">
+              <div class="glue-header__stepped-nav-controls-arrow">
+                <svg aria-hidden="true" class="glue-icon glue-icon--18px" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#chevron-left"></use>
+  </svg>
+                
+              </div>
+              <div class="glue-header__stepped-nav-controls-title glue-header__link">AlphaFold</div>
+            </div><div class="glue-header__stepped-nav-controls glue-stepped-page glue-header__link glue-stepped-page-7" data-glue-steppednav-label="$glue_steppednav_label$, Navigate back to parent menu, $glue_steppednav_label$ opened" data-glue-stepped-nav-parent-index="1" tabindex="-1" aria-label="Discover, Navigate back to parent menu, Discover opened" role="button" id="glue-stepped-page-56288191" aria-hidden="true">
+              <div class="glue-header__stepped-nav-controls-arrow">
+                <svg aria-hidden="true" class="glue-icon glue-icon--18px" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#chevron-left"></use>
+  </svg>
+                
+              </div>
+              <div class="glue-header__stepped-nav-controls-title glue-header__link">Discover</div>
+            </div></div>
+          <div class="glue-header__stepped-nav-menus glue-stepped-pages"><ul class="glue-header__list glue-stepped-page glue-stepped-page-1 glue-is-shown" id="glue-stepped-page-91525961">
+              
+                <li class="glue-header__item" data-glue-stepped-page="2" aria-haspopup="true" aria-selected="false" aria-controls="glue-stepped-page-30298145">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/about/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          About
+          
+          
+          <svg aria-hidden="true" class="glue-icon glue-icon--18px gdm-header__expand" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#expand-more"></use>
+  </svg>
+        </strong>
+        
+      </span>
+    <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward glue-icon--18px glue-header__stepped-nav-subnav-icon" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#chevron-right"></use>
+  </svg></a>
+
+    
+      
+    
+  </li>
+              
+                <li class="glue-header__item" data-glue-stepped-page="3" aria-haspopup="true" aria-selected="false" aria-controls="glue-stepped-page-99949518">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/research/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Research
+          
+          
+          <svg aria-hidden="true" class="glue-icon glue-icon--18px gdm-header__expand" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#expand-more"></use>
+  </svg>
+        </strong>
+        
+      </span>
+    <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward glue-icon--18px glue-header__stepped-nav-subnav-icon" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#chevron-right"></use>
+  </svg></a>
+
+    
+      
+    
+  </li>
+              
+                <li class="glue-header__item" data-glue-stepped-page="4" aria-haspopup="true" aria-selected="false" aria-controls="glue-stepped-page-46856305">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Technologies
+          
+          
+          <svg aria-hidden="true" class="glue-icon glue-icon--18px gdm-header__expand" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#expand-more"></use>
+  </svg>
+        </strong>
+        
+      </span>
+    <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward glue-icon--18px glue-header__stepped-nav-subnav-icon" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#chevron-right"></use>
+  </svg></a>
+
+    
+      
+    
+  </li>
+              
+                <li class="glue-header__item" data-glue-stepped-page="7" aria-haspopup="true" aria-selected="false" aria-controls="glue-stepped-page-86043623">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/discover/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Discover
+          
+          
+          <svg aria-hidden="true" class="glue-icon glue-icon--18px gdm-header__expand" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#expand-more"></use>
+  </svg>
+        </strong>
+        
+      </span>
+    <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward glue-icon--18px glue-header__stepped-nav-subnav-icon" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#chevron-right"></use>
+  </svg></a>
+
+    
+      
+    
+  </li>
+              
+            </ul><ul class="glue-header__list glue-header__list--nested glue-stepped-page glue-stepped-page-2" data-glue-stepped-nav-parent-index="1" id="glue-stepped-page-30298145" aria-hidden="true">
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/about/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Learn about Google DeepMind
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Our mission is to build AI responsibly to benefit humanity
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/about/responsibility-safety/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Responsibility &amp; Safety
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>We want AI to benefit the world, so we must be thoughtful about how it’s built and used
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/about/education/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Education
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Our vision is to help make the AI ecosystem more representative of society
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/about/careers/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Careers
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Many disciplines, one common goal
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+        
+      </ul><ul class="glue-header__list glue-header__list--nested glue-stepped-page glue-stepped-page-3" data-glue-stepped-nav-parent-index="1" id="glue-stepped-page-99949518" aria-hidden="true">
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/research/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          View Research
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>We work on some of the most complex and interesting challenges in AI.
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/research/breakthroughs/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Breakthroughs
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Explore some of the biggest innovations in AI
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/research/publications/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Publications
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Explore a selection of our recent research
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+        
+      </ul><ul class="glue-header__list glue-header__list--nested glue-stepped-page glue-stepped-page-4" data-glue-stepped-nav-parent-index="1" id="glue-stepped-page-46856305" aria-hidden="true">
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          View Technologies
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Solving the world’s most complex challenges
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/gemini/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Gemini
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>The most general and capable AI models we've ever built
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/project-astra/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Project Astra
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>A universal AI agent that is helpful in everyday life
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/imagen-3/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Imagen
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Our highest quality text-to-image model
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item" data-glue-stepped-page="5" aria-haspopup="true" aria-selected="false" aria-controls="glue-stepped-page-44327807">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/veo/veo-2/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Veo
+          
+          
+          <svg aria-hidden="true" class="glue-icon glue-icon--18px gdm-header__expand" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#expand-more"></use>
+  </svg>
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Our state-of-the-art video generation model
+          </span>
+      </span>
+    <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward glue-icon--18px glue-header__stepped-nav-subnav-icon" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#chevron-right"></use>
+  </svg></a>
+
+    
+      
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item" data-glue-stepped-page="6" aria-haspopup="true" aria-selected="false" aria-controls="glue-stepped-page-89811025">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/alphafold/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          AlphaFold
+          
+          
+          <svg aria-hidden="true" class="glue-icon glue-icon--18px gdm-header__expand" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#expand-more"></use>
+  </svg>
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Accelerating breakthroughs in biology with AI
+          </span>
+      </span>
+    <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward glue-icon--18px glue-header__stepped-nav-subnav-icon" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#chevron-right"></use>
+  </svg></a>
+
+    
+      
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/synthid/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          SynthID
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Identifying AI-generated content
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+        
+      </ul><ul class="glue-header__list glue-header__list--nested glue-stepped-page glue-stepped-page-5" data-glue-stepped-nav-parent-index="4" id="glue-stepped-page-44327807" aria-hidden="true">
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/veo/veo-1/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Overview
+          
+          
+          
+        </strong>
+        
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/veo/veo-2/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Veo 2
+          
+            <span class="gdm-header__badge">
+              <span class="glue-visually-hidden">(</span>New<span class="glue-visually-hidden">)</span>
+            </span>
+          
+          
+          
+        </strong>
+        
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+        
+      </ul><ul class="glue-header__list glue-header__list--nested glue-stepped-page glue-stepped-page-6" data-glue-stepped-nav-parent-index="4" id="glue-stepped-page-89811025" aria-hidden="true">
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/alphafold/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Overview
+          
+          
+          
+        </strong>
+        
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/alphafold/impact-stories/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Impact stories
+          
+          
+          
+        </strong>
+        
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/alphafold/alphafold-server/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          AlphaFold Server
+          
+          
+          
+        </strong>
+        
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+        
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="https://alphafold.ebi.ac.uk/" rel="noopener" target="_blank" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          AlphaFold Database
+          
+          <svg aria-hidden="true" class="glue-icon glue-icon--18px" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#open-in-new"></use>
+  </svg>
+          
+        </strong>
+        
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+      </ul><ul class="glue-header__list glue-header__list--nested glue-stepped-page glue-stepped-page-7" data-glue-stepped-nav-parent-index="1" id="glue-stepped-page-86043623" aria-hidden="true">
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/discover/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          View Discover
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Discover our latest breakthroughs and see how we’re shaping the future
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/discover/blog/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Blog
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Discover our latest AI breakthroughs, projects, and updates
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/discover/events/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Events
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Meet our team and learn more about our research
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/discover/the-podcast/" tabindex="-1">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          The Podcast
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Uncover the extraordinary ways AI is transforming our world
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+        
+      </ul></div>
+        </div>
+        <div class="glue-header__container glue-header__container--linkbar gdm-header__search-wrapper gdm-header__search-wrapper--desktop">
+          <nav class="glue-header__link-bar">
+            <ul class="glue-header__list">
+              
+                <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/about/" aria-controls="" aria-expanded="false" aria-haspopup="true" role="button">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          About
+          
+          
+          <svg aria-hidden="true" class="glue-icon glue-icon--18px gdm-header__expand" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#expand-more"></use>
+  </svg>
+        </strong>
+        
+      </span>
+    </a><nav aria-hidden="true" aria-label="About" class="gdm-header__dropdown" data-toggle-href="/about/" tabindex="-1">
+    <div class="gdm-header__dropdown-inner">
+      <ul class="glue-header__list">
+        <li class="glue-header__item gdm-header__dropdown-view-all">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/about/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Learn about Google DeepMind
+          
+          <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward glue-icon--18px" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#chevron-right"></use>
+  </svg>
+          
+        </strong>
+        
+      </span>
+    </a>
+
+    
+  </li><li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/about/responsibility-safety/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Responsibility &amp; Safety
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>We want AI to benefit the world, so we must be thoughtful about how it’s built and used
+          </span>
+      </span>
+    </a>
+
+    
+  </li><li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/about/education/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Education
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Our vision is to help make the AI ecosystem more representative of society
+          </span>
+      </span>
+    </a>
+
+    
+  </li><li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/about/careers/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Careers
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Many disciplines, one common goal
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+      </ul>
+      <div class="gdm-header__featured">
+        <p class="gdm-header__featured-title glue-label">Latest posts</p>
+        <ul class="gdm-header__featured-items glue-no-bullet">
+            
+              
+    <li>
+      <a class="glue-header__link gdm-header__featured-item" data-gtm-tag="header-selection" href="/discover/blog/facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models/">
+        
+    
+    
+    <picture class="picture gdm-header__featured-image">
+      <source type="image/webp" width="264" height="156" srcset="https://lh3.googleusercontent.com/PNlhxhf4LKLRCezIt7Ap358F91-vbK5dLp56Ak1FejpCZh3YTp6jGqIDJm9c0iAtx8Y73MCTu279c1k2GZkM2qXXaqx315NSOaSiU0y0ATMK2c2Hyw=w264-h156-n-nu-rw 1x, https://lh3.googleusercontent.com/PNlhxhf4LKLRCezIt7Ap358F91-vbK5dLp56Ak1FejpCZh3YTp6jGqIDJm9c0iAtx8Y73MCTu279c1k2GZkM2qXXaqx315NSOaSiU0y0ATMK2c2Hyw=w528-h312-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="156" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/PNlhxhf4LKLRCezIt7Ap358F91-vbK5dLp56Ak1FejpCZh3YTp6jGqIDJm9c0iAtx8Y73MCTu279c1k2GZkM2qXXaqx315NSOaSiU0y0ATMK2c2Hyw=w264-h156-n-nu" width="264">
+    </picture>
+    
+  
+        <strong class="gdm-header__title">FACTS Grounding: A new benchmark for evaluating the factuality of large language models</strong>
+        <time datetime="2024-12-17" class="glue-label gdm-header__featured-date">17 December 2024</time>
+        
+      </a>
+    </li>
+  
+            
+              
+    <li>
+      <a class="glue-header__link gdm-header__featured-item" data-gtm-tag="header-selection" href="https://blog.google/technology/google-labs/video-image-generation-update-december-2024" rel="noopener" target="_blank">
+        
+    
+    
+    <picture class="picture gdm-header__featured-image">
+      <source type="image/webp" width="264" height="156" srcset="https://lh3.googleusercontent.com/oQJc7KdT6VMNI34EQDKbFRL59cIYqJQpX2HFx89rzbt4mREOnrimL7-iFzJrPn-laATOzohFG-aBEpDvIqMxkv-HBycJ3ZhmitYLKwha3JkidE4uwg=w264-h156-n-nu-rw 1x, https://lh3.googleusercontent.com/oQJc7KdT6VMNI34EQDKbFRL59cIYqJQpX2HFx89rzbt4mREOnrimL7-iFzJrPn-laATOzohFG-aBEpDvIqMxkv-HBycJ3ZhmitYLKwha3JkidE4uwg=w528-h312-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="156" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/oQJc7KdT6VMNI34EQDKbFRL59cIYqJQpX2HFx89rzbt4mREOnrimL7-iFzJrPn-laATOzohFG-aBEpDvIqMxkv-HBycJ3ZhmitYLKwha3JkidE4uwg=w264-h156-n-nu" width="264">
+    </picture>
+    
+  
+        <strong class="gdm-header__title">State-of-the-art video and image generation with Veo 2 and Imagen 3</strong>
+        <time datetime="2024-12-16" class="glue-label gdm-header__featured-date">16 December 2024</time>
+        <svg aria-hidden="true" class="glue-icon glue-icon--18px gdm-header__featured-icon" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#open-in-new"></use>
+  </svg>
+      </a>
+    </li>
+  
+            
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+    
+      <ul class="glue-header__list glue-header__list--nested">
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/about/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Learn about Google DeepMind
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Our mission is to build AI responsibly to benefit humanity
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/about/responsibility-safety/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Responsibility &amp; Safety
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>We want AI to benefit the world, so we must be thoughtful about how it’s built and used
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/about/education/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Education
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Our vision is to help make the AI ecosystem more representative of society
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/about/careers/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Careers
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Many disciplines, one common goal
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+        
+      </ul>
+    
+  </li>
+              
+                <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/research/" aria-controls="" aria-expanded="false" aria-haspopup="true" role="button">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Research
+          
+          
+          <svg aria-hidden="true" class="glue-icon glue-icon--18px gdm-header__expand" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#expand-more"></use>
+  </svg>
+        </strong>
+        
+      </span>
+    </a><nav aria-hidden="true" aria-label="Research" class="gdm-header__dropdown" data-toggle-href="/research/" tabindex="-1">
+    <div class="gdm-header__dropdown-inner">
+      <ul class="glue-header__list">
+        <li class="glue-header__item gdm-header__dropdown-view-all">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/research/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          View Research
+          
+          <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward glue-icon--18px" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#chevron-right"></use>
+  </svg>
+          
+        </strong>
+        
+      </span>
+    </a>
+
+    
+  </li><li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/research/breakthroughs/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Breakthroughs
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Explore some of the biggest innovations in AI
+          </span>
+      </span>
+    </a>
+
+    
+  </li><li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/research/publications/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Publications
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Explore a selection of our recent research
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+      </ul>
+      <div class="gdm-header__featured">
+        <p class="gdm-header__featured-title glue-label">Latest research posts</p>
+        <ul class="gdm-header__featured-items glue-no-bullet">
+            
+              
+    <li>
+      <a class="glue-header__link gdm-header__featured-item" data-gtm-tag="header-selection" href="/discover/blog/google-deepmind-at-neurips-2024/">
+        
+    
+    
+    <picture class="picture gdm-header__featured-image">
+      <source type="image/webp" width="264" height="156" srcset="https://lh3.googleusercontent.com/cKpWE16vpsZ21VcH-_SdGF8tQEeEMp2phWFajdBq_A7aMVS2axiXQzd7V8mlHdJm-CXVKh1IaY3yeM_lAwu_zxc6SIBdWahdN6nYoaQqUbC8uU0qoY8=w264-h156-n-nu-rw 1x, https://lh3.googleusercontent.com/cKpWE16vpsZ21VcH-_SdGF8tQEeEMp2phWFajdBq_A7aMVS2axiXQzd7V8mlHdJm-CXVKh1IaY3yeM_lAwu_zxc6SIBdWahdN6nYoaQqUbC8uU0qoY8=w528-h312-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="156" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/cKpWE16vpsZ21VcH-_SdGF8tQEeEMp2phWFajdBq_A7aMVS2axiXQzd7V8mlHdJm-CXVKh1IaY3yeM_lAwu_zxc6SIBdWahdN6nYoaQqUbC8uU0qoY8=w264-h156-n-nu" width="264">
+    </picture>
+    
+  
+        <strong class="gdm-header__title">Google DeepMind at NeurIPS 2024</strong>
+        <time datetime="2024-12-05" class="glue-label gdm-header__featured-date">5 December 2024</time>
+        
+      </a>
+    </li>
+  
+            
+              
+    <li>
+      <a class="glue-header__link gdm-header__featured-item" data-gtm-tag="header-selection" href="/discover/blog/genie-2-a-large-scale-foundation-world-model/">
+        
+    
+    
+    <picture class="picture gdm-header__featured-image">
+      <source type="image/webp" width="264" height="156" srcset="https://lh3.googleusercontent.com/wvcJdqh_wddVc-WiMGgcqe7nWp7Ybu0wd-PBDxC_VUQkfxI7HPfQz3fi_HyYTOoRM_XV3Bofp9l1wBZ1CJPZPG6yZMdZxqH8X7_Lb9nhVAquAul1=w264-h156-n-nu-rw 1x, https://lh3.googleusercontent.com/wvcJdqh_wddVc-WiMGgcqe7nWp7Ybu0wd-PBDxC_VUQkfxI7HPfQz3fi_HyYTOoRM_XV3Bofp9l1wBZ1CJPZPG6yZMdZxqH8X7_Lb9nhVAquAul1=w528-h312-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="156" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/wvcJdqh_wddVc-WiMGgcqe7nWp7Ybu0wd-PBDxC_VUQkfxI7HPfQz3fi_HyYTOoRM_XV3Bofp9l1wBZ1CJPZPG6yZMdZxqH8X7_Lb9nhVAquAul1=w264-h156-n-nu" width="264">
+    </picture>
+    
+  
+        <strong class="gdm-header__title">Genie 2: A large-scale foundation world model</strong>
+        <time datetime="2024-12-04" class="glue-label gdm-header__featured-date">4 December 2024</time>
+        
+      </a>
+    </li>
+  
+            
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+    
+      <ul class="glue-header__list glue-header__list--nested">
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/research/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          View Research
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>We work on some of the most complex and interesting challenges in AI.
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/research/breakthroughs/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Breakthroughs
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Explore some of the biggest innovations in AI
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/research/publications/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Publications
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Explore a selection of our recent research
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+        
+      </ul>
+    
+  </li>
+              
+                <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/" aria-controls="" aria-expanded="false" aria-haspopup="true" role="button">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Technologies
+          
+          
+          <svg aria-hidden="true" class="glue-icon glue-icon--18px gdm-header__expand" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#expand-more"></use>
+  </svg>
+        </strong>
+        
+      </span>
+    </a><nav aria-hidden="true" aria-label="Technologies" class="gdm-header__dropdown" data-toggle-href="/technologies/" tabindex="-1">
+    <div class="gdm-header__dropdown-inner">
+      <ul class="glue-header__list">
+        <li class="glue-header__item gdm-header__dropdown-view-all">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          View Technologies
+          
+          <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward glue-icon--18px" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#chevron-right"></use>
+  </svg>
+          
+        </strong>
+        
+      </span>
+    </a>
+
+    
+  </li><li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/gemini/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Gemini
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>The most general and capable AI models we've ever built
+          </span>
+      </span>
+    </a>
+
+    
+  </li><li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/project-astra/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Project Astra
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>A universal AI agent that is helpful in everyday life
+          </span>
+      </span>
+    </a>
+
+    
+  </li><li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/imagen-3/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Imagen
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Our highest quality text-to-image model
+          </span>
+      </span>
+    </a>
+
+    
+  </li><li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/veo/veo-2/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Veo
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Our state-of-the-art video generation model
+          </span>
+      </span>
+    </a>
+
+    
+  </li><li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/alphafold/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          AlphaFold
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Accelerating breakthroughs in biology with AI
+          </span>
+      </span>
+    </a>
+
+    
+  </li><li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/synthid/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          SynthID
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Identifying AI-generated content
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+      </ul>
+      <div class="gdm-header__featured">
+        <p class="gdm-header__featured-title glue-label">Latest technology posts</p>
+        <ul class="gdm-header__featured-items glue-no-bullet">
+            
+              
+    <li>
+      <a class="glue-header__link gdm-header__featured-item" data-gtm-tag="header-selection" href="https://blog.google/technology/google-labs/video-image-generation-update-december-2024" rel="noopener" target="_blank">
+        
+    
+    
+    <picture class="picture gdm-header__featured-image">
+      <source type="image/webp" width="264" height="156" srcset="https://lh3.googleusercontent.com/oQJc7KdT6VMNI34EQDKbFRL59cIYqJQpX2HFx89rzbt4mREOnrimL7-iFzJrPn-laATOzohFG-aBEpDvIqMxkv-HBycJ3ZhmitYLKwha3JkidE4uwg=w264-h156-n-nu-rw 1x, https://lh3.googleusercontent.com/oQJc7KdT6VMNI34EQDKbFRL59cIYqJQpX2HFx89rzbt4mREOnrimL7-iFzJrPn-laATOzohFG-aBEpDvIqMxkv-HBycJ3ZhmitYLKwha3JkidE4uwg=w528-h312-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="156" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/oQJc7KdT6VMNI34EQDKbFRL59cIYqJQpX2HFx89rzbt4mREOnrimL7-iFzJrPn-laATOzohFG-aBEpDvIqMxkv-HBycJ3ZhmitYLKwha3JkidE4uwg=w264-h156-n-nu" width="264">
+    </picture>
+    
+  
+        <strong class="gdm-header__title">State-of-the-art video and image generation with Veo 2 and Imagen 3</strong>
+        <time datetime="2024-12-16" class="glue-label gdm-header__featured-date">16 December 2024</time>
+        <svg aria-hidden="true" class="glue-icon glue-icon--18px gdm-header__featured-icon" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#open-in-new"></use>
+  </svg>
+      </a>
+    </li>
+  
+            
+              
+    <li>
+      <a class="glue-header__link gdm-header__featured-item" data-gtm-tag="header-selection" href="https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024?utm_source=deepmind.google&amp;utm_medium=referral&amp;utm_campaign=gdm&amp;utm_content=" rel="noopener" target="_blank">
+        
+    
+    
+    <picture class="picture gdm-header__featured-image">
+      <source type="image/webp" width="264" height="156" srcset="https://lh3.googleusercontent.com/SresVCXLvYPfFosb0TQ7ux4XG0rtds1hAYOzMcayK9eeGv684ZcgcSUN95biWiMTpIHDPzuFiau-Lwsnz8qwkCQtJ-wILDf1XspScVimH6ObeBQKkg=w264-h156-n-nu-rw 1x, https://lh3.googleusercontent.com/SresVCXLvYPfFosb0TQ7ux4XG0rtds1hAYOzMcayK9eeGv684ZcgcSUN95biWiMTpIHDPzuFiau-Lwsnz8qwkCQtJ-wILDf1XspScVimH6ObeBQKkg=w528-h312-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="156" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/SresVCXLvYPfFosb0TQ7ux4XG0rtds1hAYOzMcayK9eeGv684ZcgcSUN95biWiMTpIHDPzuFiau-Lwsnz8qwkCQtJ-wILDf1XspScVimH6ObeBQKkg=w264-h156-n-nu" width="264">
+    </picture>
+    
+  
+        <strong class="gdm-header__title">Introducing Gemini 2.0: our new AI model for the agentic era</strong>
+        <time datetime="2024-12-11" class="glue-label gdm-header__featured-date">11 December 2024</time>
+        <svg aria-hidden="true" class="glue-icon glue-icon--18px gdm-header__featured-icon" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#open-in-new"></use>
+  </svg>
+      </a>
+    </li>
+  
+            
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+    
+      <ul class="glue-header__list glue-header__list--nested">
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          View Technologies
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Solving the world’s most complex challenges
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/gemini/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Gemini
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>The most general and capable AI models we've ever built
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/project-astra/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Project Astra
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>A universal AI agent that is helpful in everyday life
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/imagen-3/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Imagen
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Our highest quality text-to-image model
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/veo/veo-2/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Veo
+          
+          
+          <svg aria-hidden="true" class="glue-icon glue-icon--18px gdm-header__expand" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#expand-more"></use>
+  </svg>
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Our state-of-the-art video generation model
+          </span>
+      </span>
+    </a>
+
+    
+      <ul class="glue-header__list glue-header__list--nested">
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/veo/veo-1/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Overview
+          
+          
+          
+        </strong>
+        
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/veo/veo-2/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Veo 2
+          
+            <span class="gdm-header__badge">
+              <span class="glue-visually-hidden">(</span>New<span class="glue-visually-hidden">)</span>
+            </span>
+          
+          
+          
+        </strong>
+        
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+        
+      </ul>
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/alphafold/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          AlphaFold
+          
+          
+          <svg aria-hidden="true" class="glue-icon glue-icon--18px gdm-header__expand" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#expand-more"></use>
+  </svg>
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Accelerating breakthroughs in biology with AI
+          </span>
+      </span>
+    </a>
+
+    
+      <ul class="glue-header__list glue-header__list--nested">
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/alphafold/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Overview
+          
+          
+          
+        </strong>
+        
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/alphafold/impact-stories/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Impact stories
+          
+          
+          
+        </strong>
+        
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/alphafold/alphafold-server/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          AlphaFold Server
+          
+          
+          
+        </strong>
+        
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+        
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="https://alphafold.ebi.ac.uk/" rel="noopener" target="_blank">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          AlphaFold Database
+          
+          <svg aria-hidden="true" class="glue-icon glue-icon--18px" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#open-in-new"></use>
+  </svg>
+          
+        </strong>
+        
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+      </ul>
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/technologies/synthid/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          SynthID
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Identifying AI-generated content
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+        
+      </ul>
+    
+  </li>
+              
+                <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/discover/" aria-controls="" aria-expanded="false" aria-haspopup="true" role="button">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Discover
+          
+          
+          <svg aria-hidden="true" class="glue-icon glue-icon--18px gdm-header__expand" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#expand-more"></use>
+  </svg>
+        </strong>
+        
+      </span>
+    </a><nav aria-hidden="true" aria-label="Discover" class="gdm-header__dropdown" data-toggle-href="/discover/" tabindex="-1">
+    <div class="gdm-header__dropdown-inner">
+      <ul class="glue-header__list">
+        <li class="glue-header__item gdm-header__dropdown-view-all">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/discover/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          View Discover
+          
+          <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward glue-icon--18px" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#chevron-right"></use>
+  </svg>
+          
+        </strong>
+        
+      </span>
+    </a>
+
+    
+  </li><li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/discover/blog/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Blog
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Discover our latest AI breakthroughs, projects, and updates
+          </span>
+      </span>
+    </a>
+
+    
+  </li><li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/discover/events/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Events
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Meet our team and learn more about our research
+          </span>
+      </span>
+    </a>
+
+    
+  </li><li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/discover/the-podcast/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          The Podcast
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Uncover the extraordinary ways AI is transforming our world
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+      </ul>
+      <div class="gdm-header__featured">
+        <p class="gdm-header__featured-title glue-label">Latest posts</p>
+        <ul class="gdm-header__featured-items glue-no-bullet">
+            
+              
+    <li>
+      <a class="glue-header__link gdm-header__featured-item" data-gtm-tag="header-selection" href="/discover/blog/facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models/">
+        
+    
+    
+    <picture class="picture gdm-header__featured-image">
+      <source type="image/webp" width="264" height="156" srcset="https://lh3.googleusercontent.com/PNlhxhf4LKLRCezIt7Ap358F91-vbK5dLp56Ak1FejpCZh3YTp6jGqIDJm9c0iAtx8Y73MCTu279c1k2GZkM2qXXaqx315NSOaSiU0y0ATMK2c2Hyw=w264-h156-n-nu-rw 1x, https://lh3.googleusercontent.com/PNlhxhf4LKLRCezIt7Ap358F91-vbK5dLp56Ak1FejpCZh3YTp6jGqIDJm9c0iAtx8Y73MCTu279c1k2GZkM2qXXaqx315NSOaSiU0y0ATMK2c2Hyw=w528-h312-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="156" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/PNlhxhf4LKLRCezIt7Ap358F91-vbK5dLp56Ak1FejpCZh3YTp6jGqIDJm9c0iAtx8Y73MCTu279c1k2GZkM2qXXaqx315NSOaSiU0y0ATMK2c2Hyw=w264-h156-n-nu" width="264">
+    </picture>
+    
+  
+        <strong class="gdm-header__title">FACTS Grounding: A new benchmark for evaluating the factuality of large language models</strong>
+        <time datetime="2024-12-17" class="glue-label gdm-header__featured-date">17 December 2024</time>
+        
+      </a>
+    </li>
+  
+            
+              
+    <li>
+      <a class="glue-header__link gdm-header__featured-item" data-gtm-tag="header-selection" href="https://blog.google/technology/google-labs/video-image-generation-update-december-2024" rel="noopener" target="_blank">
+        
+    
+    
+    <picture class="picture gdm-header__featured-image">
+      <source type="image/webp" width="264" height="156" srcset="https://lh3.googleusercontent.com/oQJc7KdT6VMNI34EQDKbFRL59cIYqJQpX2HFx89rzbt4mREOnrimL7-iFzJrPn-laATOzohFG-aBEpDvIqMxkv-HBycJ3ZhmitYLKwha3JkidE4uwg=w264-h156-n-nu-rw 1x, https://lh3.googleusercontent.com/oQJc7KdT6VMNI34EQDKbFRL59cIYqJQpX2HFx89rzbt4mREOnrimL7-iFzJrPn-laATOzohFG-aBEpDvIqMxkv-HBycJ3ZhmitYLKwha3JkidE4uwg=w528-h312-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="156" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/oQJc7KdT6VMNI34EQDKbFRL59cIYqJQpX2HFx89rzbt4mREOnrimL7-iFzJrPn-laATOzohFG-aBEpDvIqMxkv-HBycJ3ZhmitYLKwha3JkidE4uwg=w264-h156-n-nu" width="264">
+    </picture>
+    
+  
+        <strong class="gdm-header__title">State-of-the-art video and image generation with Veo 2 and Imagen 3</strong>
+        <time datetime="2024-12-16" class="glue-label gdm-header__featured-date">16 December 2024</time>
+        <svg aria-hidden="true" class="glue-icon glue-icon--18px gdm-header__featured-icon" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#open-in-new"></use>
+  </svg>
+      </a>
+    </li>
+  
+            
+          </ul>
+      </div>
+    </div>
+  </nav>
+
+    
+      <ul class="glue-header__list glue-header__list--nested">
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/discover/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          View Discover
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Discover our latest breakthroughs and see how we’re shaping the future
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/discover/blog/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Blog
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Discover our latest AI breakthroughs, projects, and updates
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/discover/events/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          Events
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Meet our team and learn more about our research
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+          
+          
+            <li class="glue-header__item">
+    <a class="glue-header__link" data-gtm-tag="header-selection" href="/discover/the-podcast/">
+      <span class="gdm-header__link-inner">
+        <strong class="gdm-header__title">
+          The Podcast
+          
+          
+          
+        </strong>
+        <span class="gdm-header__description">
+            <span class="glue-visually-hidden"> — </span>Uncover the extraordinary ways AI is transforming our world
+          </span>
+      </span>
+    </a>
+
+    
+  </li>
+          
+        
+        
+      </ul>
+    
+  </li>
+              
+            </ul>
+          </nav>
+          
+            <div class="gdm-header__search-container">
+              <form action="/search/" method="get" role="search" class="gdm-header__search-form">
+    <div class="glue-form__element">
+      <label class="mdc-text-field mdc-text-field--outlined glue-text-field mdc-text-field--with-leading-icon mdc-text-field--no-label" data-mdc-auto-init="MDCTextField" data-mdc-auto-init-state="initialized">
+        <span class="gdm-header__search-label" id="search-desktop-label">Search...</span>
+        <svg aria-hidden="true" class="glue-icon material-icons mdc-text-field__icon mdc-text-field__icon--leading gdm-header__icon" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#search"></use>
+  </svg>
+        <input class="mdc-text-field__input" name="query" type="text" id="search-desktop" autocomplete="off" maxlength="320" placeholder="Search..." aria-haspopup="listbox" aria-controls="search-desktop-autocomplete" aria-labelledby="search-desktop-label">
+        <span class="mdc-notched-outline mdc-notched-outline--no-label">
+          <span class="mdc-notched-outline__leading"></span>
+          <span class="mdc-notched-outline__trailing"></span>
+        </span>
+      </label>
+    </div>
+    <div class="gdm-header__autocomplete">
+      <ul class="gdm-autocomplete__list" id="search-desktop-autocomplete" aria-labelledby="search-desktop" aria-live="polite"></ul>
+      
+      <!-- input type="submit" value="Show More" class="glue-button glue-button--low-emphasis gdm-autocomplete__show-more" -->
+    </div>
+  </form>
+              <div class="glue-header__supplemental">
+                <a aria-controls="search-desktop" class="glue-header__link gdm-header__icon-button gdm-header__toggle-button" data-hide-label="Close search" data-show-label="Open search" href="/search" role="button" aria-label="Open search">
+    <span class="glue-visually-hidden gdm-header__search-text">Search</span>
+    <span class="glue-visually-hidden gdm-header__close-text">Close</span>
+    <svg aria-hidden="true" class="glue-icon glue-icon--24px gdm-header__search-icon" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#search"></use>
+  </svg>
+    <svg aria-hidden="true" class="glue-icon glue-icon--24px gdm-header__close-icon" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#close"></use>
+  </svg>
+  </a>
+              </div>
+            </div>
+          
+        </div>
+        <div class="gdm-header__gemini gdm-header__gemini--desktop">
+    <a aria-label="Chat with Gemini" class="glue-header__link gdm-header__icon-button" href="https://gemini.google.com/?utm_source=deepmind.google&amp;utm_medium=referral&amp;utm_campaign=gdm&amp;utm_content=" rel="noopener" target="_blank">
+      <svg aria-hidden="true" class="glue-icon glue-icon--24px" role="presentation">
+    <use href="/static/icons/icons.4f32e13e021e.svg#gemini"></use>
+  </svg>
+    </a>
+  </div>
+        
+          
+            
+
+            
+          
+        
+          
+            
+
+            
+          
+        
+          
+            
+
+            
+          
+        
+          
+            
+
+            
+          
+        
+      </div>
+    </div>
+    <div class="glue-header__drawer-backdrop gdm-header__backdrop" data-label="Close the navigation drawer"></div>
+  </header>
+  <div class="gdm-header-scrolling"></div>
+
+
+    <main id="content" class="">
+      
+    
+  
+  
+  
+    
+      
+
+      
+      
+        
+          
+            <div class="glue-page bookmark">
+              
+                
+                
+                  
+                  
+
+
+
+
+<gemini-page-cover class="gemini-page-cover gemini-page-cover--first">
+  <div class="gemini-page-cover__inner glue-grid">
+    <div class="glue-grid__col glue-grid__col--span-12 gemini-page-cover__content-row "><h1 class="gemini-page-cover__headline glue-headline gemini-in-view-element" data-in-view="">The next era of Gemini</h1><div class="gemini-page-cover__paragraph gemini-in-view-element" data-in-view=""><p data-block-key="jbpz8">Gemini 2.0 is our most capable AI model yet, built for the agentic era</p></div><div class="gemini-page-cover__buttons gemini-in-view-element" data-in-view="">
+          <gemini-button>
+    <a class="button glue-button glue-button--high-emphasis" data-gtm-tag="cta-selection" href="/technologies/gemini/">
+      <span class="button__text">Learn more</span>
+      
+    </a>
+  </gemini-button><gemini-button>
+    <a class="button glue-button glue-button--medium-emphasis glue-button--icon-right" data-gtm-tag="cta-selection" href="https://gemini.google.com/?utm_source=deepmind.google&amp;utm_medium=referral&amp;utm_campaign=gdm&amp;utm_content=" rel="noopener" target="_blank">
+      <span class="button__text">Chat with Gemini</span>
+      <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward button__icon" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#chevron-right"></use>
+  </svg>
+    </a>
+  </gemini-button>
+        </div></div></div>
+  
+    
+    
+    
+    <picture class="picture gemini-page-cover__background gemini-page-cover__background--image">
+      <source media="(min-width: 1440px)" type="image/webp" width="1920" height="1080" srcset="https://lh3.googleusercontent.com/aWx919myu51Qq-IZhqvOx82XrrrQe9uKTTJ7SanzekmOF8YJSh-pzIwPxecLZrU1d1s3ptWnCwdPsdU8OG9c3fqnguAHwQCAtEhkbgnw81LIp7o8JQ=w1920-rw 1x, https://lh3.googleusercontent.com/aWx919myu51Qq-IZhqvOx82XrrrQe9uKTTJ7SanzekmOF8YJSh-pzIwPxecLZrU1d1s3ptWnCwdPsdU8OG9c3fqnguAHwQCAtEhkbgnw81LIp7o8JQ=w3840-rw 2x"><source media="(min-width: 1024px)" type="image/webp" width="1440" height="810" srcset="https://lh3.googleusercontent.com/aWx919myu51Qq-IZhqvOx82XrrrQe9uKTTJ7SanzekmOF8YJSh-pzIwPxecLZrU1d1s3ptWnCwdPsdU8OG9c3fqnguAHwQCAtEhkbgnw81LIp7o8JQ=w1440-rw 1x, https://lh3.googleusercontent.com/aWx919myu51Qq-IZhqvOx82XrrrQe9uKTTJ7SanzekmOF8YJSh-pzIwPxecLZrU1d1s3ptWnCwdPsdU8OG9c3fqnguAHwQCAtEhkbgnw81LIp7o8JQ=w2880-rw 2x"><source media="(min-width: 600px)" type="image/webp" width="1024" height="576" srcset="https://lh3.googleusercontent.com/aWx919myu51Qq-IZhqvOx82XrrrQe9uKTTJ7SanzekmOF8YJSh-pzIwPxecLZrU1d1s3ptWnCwdPsdU8OG9c3fqnguAHwQCAtEhkbgnw81LIp7o8JQ=w1024-rw 1x, https://lh3.googleusercontent.com/aWx919myu51Qq-IZhqvOx82XrrrQe9uKTTJ7SanzekmOF8YJSh-pzIwPxecLZrU1d1s3ptWnCwdPsdU8OG9c3fqnguAHwQCAtEhkbgnw81LIp7o8JQ=w2048-rw 2x"><source type="image/webp" width="600" height="337" srcset="https://lh3.googleusercontent.com/aWx919myu51Qq-IZhqvOx82XrrrQe9uKTTJ7SanzekmOF8YJSh-pzIwPxecLZrU1d1s3ptWnCwdPsdU8OG9c3fqnguAHwQCAtEhkbgnw81LIp7o8JQ=w600-rw 1x, https://lh3.googleusercontent.com/aWx919myu51Qq-IZhqvOx82XrrrQe9uKTTJ7SanzekmOF8YJSh-pzIwPxecLZrU1d1s3ptWnCwdPsdU8OG9c3fqnguAHwQCAtEhkbgnw81LIp7o8JQ=w1200-rw 2x">
+      <img alt="" class="picture__image" height="810" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/aWx919myu51Qq-IZhqvOx82XrrrQe9uKTTJ7SanzekmOF8YJSh-pzIwPxecLZrU1d1s3ptWnCwdPsdU8OG9c3fqnguAHwQCAtEhkbgnw81LIp7o8JQ=w1440" width="1440">
+    </picture>
+    
+  
+  
+</gemini-page-cover>
+                
+              
+                
+                
+                  
+                  
+
+
+
+
+<gemini-page-cover class="gemini-page-cover">
+  <div class="gemini-page-cover__inner glue-grid">
+    <div class="glue-grid__col glue-grid__col--span-12 gemini-page-cover__content-row "><h1 class="gemini-page-cover__headline glue-headline gemini-in-view-element" data-in-view="">Project Astra</h1><div class="gemini-page-cover__paragraph gemini-in-view-element" data-in-view=""><p data-block-key="jbpz8">A research prototype exploring future capabilities of a universal AI assistant</p></div><div class="gemini-page-cover__buttons gemini-in-view-element" data-in-view="">
+          <gemini-button>
+    <a class="button glue-button glue-button--high-emphasis" data-gtm-tag="cta-selection" href="/technologies/project-astra/">
+      <span class="button__text">Learn more</span>
+      
+    </a>
+  </gemini-button>
+        </div></div></div>
+  
+    
+    
+    
+    <picture class="picture gemini-page-cover__background gemini-page-cover__background--image">
+      <source media="(min-width: 1440px)" type="image/webp" width="1920" height="1080" srcset="https://lh3.googleusercontent.com/5suCNi8LY2RQvHyBQEbM-BobVgU-mmZyodBkVxTB6IOelm44POm1VGRVw6GWlmVHdJda8Z4-RBVPkBZnFQIiC3vlnSWuY-tKBdHOBGUgDMsI6Nwi8w=w1920-rw 1x, https://lh3.googleusercontent.com/5suCNi8LY2RQvHyBQEbM-BobVgU-mmZyodBkVxTB6IOelm44POm1VGRVw6GWlmVHdJda8Z4-RBVPkBZnFQIiC3vlnSWuY-tKBdHOBGUgDMsI6Nwi8w=w3840-rw 2x"><source media="(min-width: 1024px)" type="image/webp" width="1440" height="810" srcset="https://lh3.googleusercontent.com/5suCNi8LY2RQvHyBQEbM-BobVgU-mmZyodBkVxTB6IOelm44POm1VGRVw6GWlmVHdJda8Z4-RBVPkBZnFQIiC3vlnSWuY-tKBdHOBGUgDMsI6Nwi8w=w1440-rw 1x, https://lh3.googleusercontent.com/5suCNi8LY2RQvHyBQEbM-BobVgU-mmZyodBkVxTB6IOelm44POm1VGRVw6GWlmVHdJda8Z4-RBVPkBZnFQIiC3vlnSWuY-tKBdHOBGUgDMsI6Nwi8w=w2880-rw 2x"><source media="(min-width: 600px)" type="image/webp" width="1024" height="576" srcset="https://lh3.googleusercontent.com/5suCNi8LY2RQvHyBQEbM-BobVgU-mmZyodBkVxTB6IOelm44POm1VGRVw6GWlmVHdJda8Z4-RBVPkBZnFQIiC3vlnSWuY-tKBdHOBGUgDMsI6Nwi8w=w1024-rw 1x, https://lh3.googleusercontent.com/5suCNi8LY2RQvHyBQEbM-BobVgU-mmZyodBkVxTB6IOelm44POm1VGRVw6GWlmVHdJda8Z4-RBVPkBZnFQIiC3vlnSWuY-tKBdHOBGUgDMsI6Nwi8w=w2048-rw 2x"><source type="image/webp" width="600" height="337" srcset="https://lh3.googleusercontent.com/5suCNi8LY2RQvHyBQEbM-BobVgU-mmZyodBkVxTB6IOelm44POm1VGRVw6GWlmVHdJda8Z4-RBVPkBZnFQIiC3vlnSWuY-tKBdHOBGUgDMsI6Nwi8w=w600-rw 1x, https://lh3.googleusercontent.com/5suCNi8LY2RQvHyBQEbM-BobVgU-mmZyodBkVxTB6IOelm44POm1VGRVw6GWlmVHdJda8Z4-RBVPkBZnFQIiC3vlnSWuY-tKBdHOBGUgDMsI6Nwi8w=w1200-rw 2x">
+      <img alt="" class="picture__image" height="810" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/5suCNi8LY2RQvHyBQEbM-BobVgU-mmZyodBkVxTB6IOelm44POm1VGRVw6GWlmVHdJda8Z4-RBVPkBZnFQIiC3vlnSWuY-tKBdHOBGUgDMsI6Nwi8w=w1440" width="1440">
+    </picture>
+    
+  
+  
+</gemini-page-cover>
+                
+              
+                
+                
+                  
+                  
+
+
+
+
+<gemini-page-cover class="gemini-page-cover">
+  <div class="gemini-page-cover__inner glue-grid">
+    <div class="glue-grid__col glue-grid__col--span-12 gemini-page-cover__content-row "><h1 class="gemini-page-cover__headline glue-headline gemini-in-view-element" data-in-view="">Project Mariner</h1><div class="gemini-page-cover__paragraph gemini-in-view-element" data-in-view=""><p data-block-key="jbpz8">A research prototype exploring the future of human-agent interaction, starting with your browser</p></div><div class="gemini-page-cover__buttons gemini-in-view-element" data-in-view="">
+          <gemini-button>
+    <a class="button glue-button glue-button--high-emphasis" data-gtm-tag="cta-selection" href="/technologies/project-mariner/">
+      <span class="button__text">Learn more</span>
+      
+    </a>
+  </gemini-button>
+        </div></div></div>
+  
+    
+    
+    
+    <picture class="picture gemini-page-cover__background gemini-page-cover__background--image">
+      <source media="(min-width: 1440px)" type="image/webp" width="1920" height="1080" srcset="https://lh3.googleusercontent.com/pFinkGuPOLyIJmJ1JkRHnfNEgLhogkeBdcwpyKAXbkOUInH7X__v9E-ecSN8AurfnRe1g7MoLyfWOFmWb3IBXjh8wK6XjsxaODVEpjxYfwLZEr1KPw=w1920-rw 1x, https://lh3.googleusercontent.com/pFinkGuPOLyIJmJ1JkRHnfNEgLhogkeBdcwpyKAXbkOUInH7X__v9E-ecSN8AurfnRe1g7MoLyfWOFmWb3IBXjh8wK6XjsxaODVEpjxYfwLZEr1KPw=w3840-rw 2x"><source media="(min-width: 1024px)" type="image/webp" width="1440" height="810" srcset="https://lh3.googleusercontent.com/pFinkGuPOLyIJmJ1JkRHnfNEgLhogkeBdcwpyKAXbkOUInH7X__v9E-ecSN8AurfnRe1g7MoLyfWOFmWb3IBXjh8wK6XjsxaODVEpjxYfwLZEr1KPw=w1440-rw 1x, https://lh3.googleusercontent.com/pFinkGuPOLyIJmJ1JkRHnfNEgLhogkeBdcwpyKAXbkOUInH7X__v9E-ecSN8AurfnRe1g7MoLyfWOFmWb3IBXjh8wK6XjsxaODVEpjxYfwLZEr1KPw=w2880-rw 2x"><source media="(min-width: 600px)" type="image/webp" width="1024" height="576" srcset="https://lh3.googleusercontent.com/pFinkGuPOLyIJmJ1JkRHnfNEgLhogkeBdcwpyKAXbkOUInH7X__v9E-ecSN8AurfnRe1g7MoLyfWOFmWb3IBXjh8wK6XjsxaODVEpjxYfwLZEr1KPw=w1024-rw 1x, https://lh3.googleusercontent.com/pFinkGuPOLyIJmJ1JkRHnfNEgLhogkeBdcwpyKAXbkOUInH7X__v9E-ecSN8AurfnRe1g7MoLyfWOFmWb3IBXjh8wK6XjsxaODVEpjxYfwLZEr1KPw=w2048-rw 2x"><source type="image/webp" width="600" height="337" srcset="https://lh3.googleusercontent.com/pFinkGuPOLyIJmJ1JkRHnfNEgLhogkeBdcwpyKAXbkOUInH7X__v9E-ecSN8AurfnRe1g7MoLyfWOFmWb3IBXjh8wK6XjsxaODVEpjxYfwLZEr1KPw=w600-rw 1x, https://lh3.googleusercontent.com/pFinkGuPOLyIJmJ1JkRHnfNEgLhogkeBdcwpyKAXbkOUInH7X__v9E-ecSN8AurfnRe1g7MoLyfWOFmWb3IBXjh8wK6XjsxaODVEpjxYfwLZEr1KPw=w1200-rw 2x">
+      <img alt="" class="picture__image" height="810" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/pFinkGuPOLyIJmJ1JkRHnfNEgLhogkeBdcwpyKAXbkOUInH7X__v9E-ecSN8AurfnRe1g7MoLyfWOFmWb3IBXjh8wK6XjsxaODVEpjxYfwLZEr1KPw=w1440" width="1440">
+    </picture>
+    
+  
+  
+</gemini-page-cover>
+                
+              
+                
+                
+                  
+                  <div class="section-title">
+    
+    <h2 class="glue-headline glue-headline--headline-2 section-title__title gemini-in-view-element" data-in-view="">Latest news</h2>
+    <div class="glue-headline glue-headline--headline-4 section-title__description gemini-in-view-element" data-in-view=""><p data-block-key="w7c1h">Discover our latest AI breakthroughs and updates from the lab</p></div>
+    <p class="section-title__cta gemini-in-view-element" data-in-view=""><a class="button glue-button glue-button--high-emphasis" data-gtm-tag="cta-selection" href="/discover/blog/">
+      <span class="button__text">View all posts</span>
+      
+    </a></p>
+  </div>
+                
+              
+                
+                
+                  
+                  
+
+  <ul class="glue-grid glue-cards cards"><li class="glue-grid__col glue-grid__col--span-6
+                            glue-grid__col--span-4-lg
+                            glue-grid__col--span-4-xl">
+    <a class="glue-card card" data-gtm-tag="card-selection" href="/discover/blog/facts-grounding-a-new-benchmark-for-evaluating-the-factuality-of-large-language-models/">
+      <div class="glue-card__inner">
+        
+    
+    
+    <picture class="picture glue-card__asset">
+      <source media="(min-width: 1024px)" type="image/webp" width="400" height="225" srcset="https://lh3.googleusercontent.com/PNlhxhf4LKLRCezIt7Ap358F91-vbK5dLp56Ak1FejpCZh3YTp6jGqIDJm9c0iAtx8Y73MCTu279c1k2GZkM2qXXaqx315NSOaSiU0y0ATMK2c2Hyw=w400-h225-n-nu-rw 1x, https://lh3.googleusercontent.com/PNlhxhf4LKLRCezIt7Ap358F91-vbK5dLp56Ak1FejpCZh3YTp6jGqIDJm9c0iAtx8Y73MCTu279c1k2GZkM2qXXaqx315NSOaSiU0y0ATMK2c2Hyw=w800-h450-n-nu-rw 2x"><source media="(min-width: 600px)" type="image/webp" width="450" height="255" srcset="https://lh3.googleusercontent.com/PNlhxhf4LKLRCezIt7Ap358F91-vbK5dLp56Ak1FejpCZh3YTp6jGqIDJm9c0iAtx8Y73MCTu279c1k2GZkM2qXXaqx315NSOaSiU0y0ATMK2c2Hyw=w450-h255-n-nu-rw 1x, https://lh3.googleusercontent.com/PNlhxhf4LKLRCezIt7Ap358F91-vbK5dLp56Ak1FejpCZh3YTp6jGqIDJm9c0iAtx8Y73MCTu279c1k2GZkM2qXXaqx315NSOaSiU0y0ATMK2c2Hyw=w900-h510-n-nu-rw 2x"><source type="image/webp" width="356" height="200" srcset="https://lh3.googleusercontent.com/PNlhxhf4LKLRCezIt7Ap358F91-vbK5dLp56Ak1FejpCZh3YTp6jGqIDJm9c0iAtx8Y73MCTu279c1k2GZkM2qXXaqx315NSOaSiU0y0ATMK2c2Hyw=w356-h200-n-nu-rw 1x, https://lh3.googleusercontent.com/PNlhxhf4LKLRCezIt7Ap358F91-vbK5dLp56Ak1FejpCZh3YTp6jGqIDJm9c0iAtx8Y73MCTu279c1k2GZkM2qXXaqx315NSOaSiU0y0ATMK2c2Hyw=w712-h400-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="225" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/PNlhxhf4LKLRCezIt7Ap358F91-vbK5dLp56Ak1FejpCZh3YTp6jGqIDJm9c0iAtx8Y73MCTu279c1k2GZkM2qXXaqx315NSOaSiU0y0ATMK2c2Hyw=w400-h225-n-nu" width="400">
+    </picture>
+    
+  
+        <div class="glue-card__content">
+          <p class="glue-label">Responsibility &amp; Safety</p>
+          <p class="glue-headline glue-headline--headline-5">FACTS Grounding: A new benchmark for evaluating the factuality of large language models</p>
+          <p class="glue-card__description">Our comprehensive benchmark and online leaderboard offer a much-needed measure of how accurately LLMs ground their responses in provided source material and avoid hallucinations</p>
+        </div>
+        <div class="glue-card__cta glue-card__cta--arrow glue-card__cta--multi-action">
+          
+            <span class="glue-label card__publish-date"><time datetime="2024-12-17">17 December 2024</time></span>
+          
+          <span class="glue-button glue-button--low-emphasis">
+            <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#arrow-forward"></use>
+  </svg>
+          </span>
+        </div>
+      </div>
+      <gemini-border-gradient class="gemini-border card__gradient">
+    <div class="gemini-border__sub-border" style="width: 575.806px; height: 575.806px;"></div>
+  </gemini-border-gradient>
+    </a>
+  </li><li class="glue-grid__col glue-grid__col--span-6
+                            glue-grid__col--span-4-lg
+                            glue-grid__col--span-4-xl">
+    <a class="glue-card card" data-gtm-tag="card-selection" href="https://blog.google/technology/google-labs/video-image-generation-update-december-2024" rel="noopener" target="_blank">
+      <div class="glue-card__inner">
+        
+    
+    
+    <picture class="picture glue-card__asset">
+      <source media="(min-width: 1024px)" type="image/webp" width="400" height="225" srcset="https://lh3.googleusercontent.com/oQJc7KdT6VMNI34EQDKbFRL59cIYqJQpX2HFx89rzbt4mREOnrimL7-iFzJrPn-laATOzohFG-aBEpDvIqMxkv-HBycJ3ZhmitYLKwha3JkidE4uwg=w400-h225-n-nu-rw 1x, https://lh3.googleusercontent.com/oQJc7KdT6VMNI34EQDKbFRL59cIYqJQpX2HFx89rzbt4mREOnrimL7-iFzJrPn-laATOzohFG-aBEpDvIqMxkv-HBycJ3ZhmitYLKwha3JkidE4uwg=w800-h450-n-nu-rw 2x"><source media="(min-width: 600px)" type="image/webp" width="450" height="255" srcset="https://lh3.googleusercontent.com/oQJc7KdT6VMNI34EQDKbFRL59cIYqJQpX2HFx89rzbt4mREOnrimL7-iFzJrPn-laATOzohFG-aBEpDvIqMxkv-HBycJ3ZhmitYLKwha3JkidE4uwg=w450-h255-n-nu-rw 1x, https://lh3.googleusercontent.com/oQJc7KdT6VMNI34EQDKbFRL59cIYqJQpX2HFx89rzbt4mREOnrimL7-iFzJrPn-laATOzohFG-aBEpDvIqMxkv-HBycJ3ZhmitYLKwha3JkidE4uwg=w900-h510-n-nu-rw 2x"><source type="image/webp" width="356" height="200" srcset="https://lh3.googleusercontent.com/oQJc7KdT6VMNI34EQDKbFRL59cIYqJQpX2HFx89rzbt4mREOnrimL7-iFzJrPn-laATOzohFG-aBEpDvIqMxkv-HBycJ3ZhmitYLKwha3JkidE4uwg=w356-h200-n-nu-rw 1x, https://lh3.googleusercontent.com/oQJc7KdT6VMNI34EQDKbFRL59cIYqJQpX2HFx89rzbt4mREOnrimL7-iFzJrPn-laATOzohFG-aBEpDvIqMxkv-HBycJ3ZhmitYLKwha3JkidE4uwg=w712-h400-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="225" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/oQJc7KdT6VMNI34EQDKbFRL59cIYqJQpX2HFx89rzbt4mREOnrimL7-iFzJrPn-laATOzohFG-aBEpDvIqMxkv-HBycJ3ZhmitYLKwha3JkidE4uwg=w400-h225-n-nu" width="400">
+    </picture>
+    
+  
+        <div class="glue-card__content">
+          <p class="glue-label">Technologies</p>
+          <p class="glue-headline glue-headline--headline-5">State-of-the-art video and image generation with Veo 2 and Imagen 3</p>
+          <p class="glue-card__description">We’re rolling out a new, state-of-the-art video model, Veo 2, and updates to Imagen 3. Plus, check out our new experiment, Whisk.</p>
+        </div>
+        <div class="glue-card__cta glue-card__cta--arrow glue-card__cta--multi-action">
+          
+            <span class="glue-label card__publish-date"><time datetime="2024-12-16">16 December 2024</time></span>
+          
+          <span class="glue-button glue-button--low-emphasis">
+            <svg aria-hidden="true" class="glue-icon" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#open-in-new"></use>
+  </svg>
+          </span>
+        </div>
+      </div>
+      <gemini-border-gradient class="gemini-border card__gradient">
+    <div class="gemini-border__sub-border" style="width: 575.806px; height: 575.806px;"></div>
+  </gemini-border-gradient>
+    </a>
+  </li><li class="glue-grid__col glue-grid__col--span-6
+                            glue-grid__col--span-4-lg
+                            glue-grid__col--span-4-xl">
+    <a class="glue-card card" data-gtm-tag="card-selection" href="https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024?utm_source=deepmind.google&amp;utm_medium=referral&amp;utm_campaign=gdm&amp;utm_content=" rel="noopener" target="_blank">
+      <div class="glue-card__inner">
+        
+    
+    
+    <picture class="picture glue-card__asset">
+      <source media="(min-width: 1024px)" type="image/webp" width="400" height="225" srcset="https://lh3.googleusercontent.com/SresVCXLvYPfFosb0TQ7ux4XG0rtds1hAYOzMcayK9eeGv684ZcgcSUN95biWiMTpIHDPzuFiau-Lwsnz8qwkCQtJ-wILDf1XspScVimH6ObeBQKkg=w400-h225-n-nu-rw 1x, https://lh3.googleusercontent.com/SresVCXLvYPfFosb0TQ7ux4XG0rtds1hAYOzMcayK9eeGv684ZcgcSUN95biWiMTpIHDPzuFiau-Lwsnz8qwkCQtJ-wILDf1XspScVimH6ObeBQKkg=w800-h450-n-nu-rw 2x"><source media="(min-width: 600px)" type="image/webp" width="450" height="255" srcset="https://lh3.googleusercontent.com/SresVCXLvYPfFosb0TQ7ux4XG0rtds1hAYOzMcayK9eeGv684ZcgcSUN95biWiMTpIHDPzuFiau-Lwsnz8qwkCQtJ-wILDf1XspScVimH6ObeBQKkg=w450-h255-n-nu-rw 1x, https://lh3.googleusercontent.com/SresVCXLvYPfFosb0TQ7ux4XG0rtds1hAYOzMcayK9eeGv684ZcgcSUN95biWiMTpIHDPzuFiau-Lwsnz8qwkCQtJ-wILDf1XspScVimH6ObeBQKkg=w900-h510-n-nu-rw 2x"><source type="image/webp" width="356" height="200" srcset="https://lh3.googleusercontent.com/SresVCXLvYPfFosb0TQ7ux4XG0rtds1hAYOzMcayK9eeGv684ZcgcSUN95biWiMTpIHDPzuFiau-Lwsnz8qwkCQtJ-wILDf1XspScVimH6ObeBQKkg=w356-h200-n-nu-rw 1x, https://lh3.googleusercontent.com/SresVCXLvYPfFosb0TQ7ux4XG0rtds1hAYOzMcayK9eeGv684ZcgcSUN95biWiMTpIHDPzuFiau-Lwsnz8qwkCQtJ-wILDf1XspScVimH6ObeBQKkg=w712-h400-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="225" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/SresVCXLvYPfFosb0TQ7ux4XG0rtds1hAYOzMcayK9eeGv684ZcgcSUN95biWiMTpIHDPzuFiau-Lwsnz8qwkCQtJ-wILDf1XspScVimH6ObeBQKkg=w400-h225-n-nu" width="400">
+    </picture>
+    
+  
+        <div class="glue-card__content">
+          <p class="glue-label">Technologies</p>
+          <p class="glue-headline glue-headline--headline-5">Introducing Gemini 2.0: our new AI model for the agentic era</p>
+          <p class="glue-card__description">Today, we’re announcing Gemini 2.0, our most capable multimodal AI model yet.</p>
+        </div>
+        <div class="glue-card__cta glue-card__cta--arrow glue-card__cta--multi-action">
+          
+            <span class="glue-label card__publish-date"><time datetime="2024-12-11">11 December 2024</time></span>
+          
+          <span class="glue-button glue-button--low-emphasis">
+            <svg aria-hidden="true" class="glue-icon" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#open-in-new"></use>
+  </svg>
+          </span>
+        </div>
+      </div>
+      <gemini-border-gradient class="gemini-border card__gradient">
+    <div class="gemini-border__sub-border" style="width: 575.806px; height: 575.806px;"></div>
+  </gemini-border-gradient>
+    </a>
+  </li></ul>
+                
+              
+                
+                
+                  
+                  <div class="section-title">
+    
+    <h2 class="glue-headline glue-headline--headline-2 section-title__title gemini-in-view-element" data-in-view="">Technologies</h2>
+    <div class="glue-headline glue-headline--headline-4 section-title__description gemini-in-view-element" data-in-view=""><p data-block-key="u3p44">Breakthrough research. Transformative products.</p></div>
+    <p class="section-title__cta gemini-in-view-element" data-in-view=""><a class="button glue-button glue-button--high-emphasis" data-gtm-tag="cta-selection" href="/technologies/">
+      <span class="button__text">View all technologies</span>
+      
+    </a></p>
+  </div>
+                
+              
+                
+                
+                  
+                  
+
+    
+  <ul class="glue-grid glue-cards cards"><li class="glue-grid__col glue-grid__col--span-6
+                            glue-grid__col--span-4-lg
+                            glue-grid__col--span-4-xl">
+    <a class="glue-card card" data-gtm-tag="card-selection" href="/technologies/veo/veo-2/">
+      <div class="glue-card__inner">
+        
+    
+    
+    <picture class="picture glue-card__asset">
+      <source media="(min-width: 1024px)" type="image/webp" width="400" height="225" srcset="https://lh3.googleusercontent.com/ulOZK86B4c7sXPcUnDlSQURFolyMa-8XBJQec2Woosd9zBN7De6tbvzRus1CKPVnggG9DdupDYAH_z9DLdy04CP9D_kTQ1RexdN1BGn-kx-6BkXcWA=w400-h225-n-nu-rw 1x, https://lh3.googleusercontent.com/ulOZK86B4c7sXPcUnDlSQURFolyMa-8XBJQec2Woosd9zBN7De6tbvzRus1CKPVnggG9DdupDYAH_z9DLdy04CP9D_kTQ1RexdN1BGn-kx-6BkXcWA=w800-h450-n-nu-rw 2x"><source media="(min-width: 600px)" type="image/webp" width="450" height="255" srcset="https://lh3.googleusercontent.com/ulOZK86B4c7sXPcUnDlSQURFolyMa-8XBJQec2Woosd9zBN7De6tbvzRus1CKPVnggG9DdupDYAH_z9DLdy04CP9D_kTQ1RexdN1BGn-kx-6BkXcWA=w450-h255-n-nu-rw 1x, https://lh3.googleusercontent.com/ulOZK86B4c7sXPcUnDlSQURFolyMa-8XBJQec2Woosd9zBN7De6tbvzRus1CKPVnggG9DdupDYAH_z9DLdy04CP9D_kTQ1RexdN1BGn-kx-6BkXcWA=w900-h510-n-nu-rw 2x"><source type="image/webp" width="356" height="200" srcset="https://lh3.googleusercontent.com/ulOZK86B4c7sXPcUnDlSQURFolyMa-8XBJQec2Woosd9zBN7De6tbvzRus1CKPVnggG9DdupDYAH_z9DLdy04CP9D_kTQ1RexdN1BGn-kx-6BkXcWA=w356-h200-n-nu-rw 1x, https://lh3.googleusercontent.com/ulOZK86B4c7sXPcUnDlSQURFolyMa-8XBJQec2Woosd9zBN7De6tbvzRus1CKPVnggG9DdupDYAH_z9DLdy04CP9D_kTQ1RexdN1BGn-kx-6BkXcWA=w712-h400-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="225" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/ulOZK86B4c7sXPcUnDlSQURFolyMa-8XBJQec2Woosd9zBN7De6tbvzRus1CKPVnggG9DdupDYAH_z9DLdy04CP9D_kTQ1RexdN1BGn-kx-6BkXcWA=w400-h225-n-nu" width="400">
+    </picture>
+    
+  
+        <div class="glue-card__content">
+          
+          <p class="glue-headline glue-headline--headline-5">Veo</p>
+          <p class="glue-card__description">Our state-of-the-art video generation model</p>
+        </div>
+        <div class="glue-card__cta glue-card__cta--arrow">
+          
+          <span class="glue-button glue-button--low-emphasis">
+            <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#arrow-forward"></use>
+  </svg>
+          </span>
+        </div>
+      </div>
+      <gemini-border-gradient class="gemini-border card__gradient">
+    <div class="gemini-border__sub-border" style="width: 490.306px; height: 490.306px;"></div>
+  </gemini-border-gradient>
+    </a>
+  </li><li class="glue-grid__col glue-grid__col--span-6
+                            glue-grid__col--span-4-lg
+                            glue-grid__col--span-4-xl">
+    <a class="glue-card card" data-gtm-tag="card-selection" href="/technologies/imagen-3/">
+      <div class="glue-card__inner">
+        
+    
+    
+    <picture class="picture glue-card__asset">
+      <source media="(min-width: 1024px)" type="image/webp" width="400" height="225" srcset="https://lh3.googleusercontent.com/38hN7abkz0nIdpNKsLhnPO4w44AWfWJvMcldt6Pu1lo_cBSSYeY749XMscKC0YFAYpbfXr8RWLDWu7Tcr4hXnIp9K-jWspgE7daqOQM3ZKDN3nMIuFU=w400-h225-n-nu-rw 1x, https://lh3.googleusercontent.com/38hN7abkz0nIdpNKsLhnPO4w44AWfWJvMcldt6Pu1lo_cBSSYeY749XMscKC0YFAYpbfXr8RWLDWu7Tcr4hXnIp9K-jWspgE7daqOQM3ZKDN3nMIuFU=w800-h450-n-nu-rw 2x"><source media="(min-width: 600px)" type="image/webp" width="450" height="255" srcset="https://lh3.googleusercontent.com/38hN7abkz0nIdpNKsLhnPO4w44AWfWJvMcldt6Pu1lo_cBSSYeY749XMscKC0YFAYpbfXr8RWLDWu7Tcr4hXnIp9K-jWspgE7daqOQM3ZKDN3nMIuFU=w450-h255-n-nu-rw 1x, https://lh3.googleusercontent.com/38hN7abkz0nIdpNKsLhnPO4w44AWfWJvMcldt6Pu1lo_cBSSYeY749XMscKC0YFAYpbfXr8RWLDWu7Tcr4hXnIp9K-jWspgE7daqOQM3ZKDN3nMIuFU=w900-h510-n-nu-rw 2x"><source type="image/webp" width="356" height="200" srcset="https://lh3.googleusercontent.com/38hN7abkz0nIdpNKsLhnPO4w44AWfWJvMcldt6Pu1lo_cBSSYeY749XMscKC0YFAYpbfXr8RWLDWu7Tcr4hXnIp9K-jWspgE7daqOQM3ZKDN3nMIuFU=w356-h200-n-nu-rw 1x, https://lh3.googleusercontent.com/38hN7abkz0nIdpNKsLhnPO4w44AWfWJvMcldt6Pu1lo_cBSSYeY749XMscKC0YFAYpbfXr8RWLDWu7Tcr4hXnIp9K-jWspgE7daqOQM3ZKDN3nMIuFU=w712-h400-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="225" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/38hN7abkz0nIdpNKsLhnPO4w44AWfWJvMcldt6Pu1lo_cBSSYeY749XMscKC0YFAYpbfXr8RWLDWu7Tcr4hXnIp9K-jWspgE7daqOQM3ZKDN3nMIuFU=w400-h225-n-nu" width="400">
+    </picture>
+    
+  
+        <div class="glue-card__content">
+          
+          <p class="glue-headline glue-headline--headline-5">Imagen 3</p>
+          <p class="glue-card__description">Our highest quality text-to-image model</p>
+        </div>
+        <div class="glue-card__cta glue-card__cta--arrow">
+          
+          <span class="glue-button glue-button--low-emphasis">
+            <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#arrow-forward"></use>
+  </svg>
+          </span>
+        </div>
+      </div>
+      <gemini-border-gradient class="gemini-border card__gradient">
+    <div class="gemini-border__sub-border" style="width: 490.306px; height: 490.306px;"></div>
+  </gemini-border-gradient>
+    </a>
+  </li><li class="glue-grid__col glue-grid__col--span-6
+                            glue-grid__col--span-4-lg
+                            glue-grid__col--span-4-xl">
+    <a class="glue-card card" data-gtm-tag="card-selection" href="/technologies/alphafold/">
+      <div class="glue-card__inner">
+        
+    
+    
+    <picture class="picture glue-card__asset">
+      <source media="(min-width: 1024px)" type="image/webp" width="400" height="225" srcset="https://lh3.googleusercontent.com/9EDiaqAY09W507UUFzuQ6cK4f0sFdQIZGr-i19OJHtZK1ODhpjE6lIWpZ6T4IlbcCxnFM8ilead5CZt0u-KhPZeF1dKWKQDICjMpGztCBpQVubDy4TU=w400-h225-n-nu-rw 1x, https://lh3.googleusercontent.com/9EDiaqAY09W507UUFzuQ6cK4f0sFdQIZGr-i19OJHtZK1ODhpjE6lIWpZ6T4IlbcCxnFM8ilead5CZt0u-KhPZeF1dKWKQDICjMpGztCBpQVubDy4TU=w800-h450-n-nu-rw 2x"><source media="(min-width: 600px)" type="image/webp" width="450" height="255" srcset="https://lh3.googleusercontent.com/9EDiaqAY09W507UUFzuQ6cK4f0sFdQIZGr-i19OJHtZK1ODhpjE6lIWpZ6T4IlbcCxnFM8ilead5CZt0u-KhPZeF1dKWKQDICjMpGztCBpQVubDy4TU=w450-h255-n-nu-rw 1x, https://lh3.googleusercontent.com/9EDiaqAY09W507UUFzuQ6cK4f0sFdQIZGr-i19OJHtZK1ODhpjE6lIWpZ6T4IlbcCxnFM8ilead5CZt0u-KhPZeF1dKWKQDICjMpGztCBpQVubDy4TU=w900-h510-n-nu-rw 2x"><source type="image/webp" width="356" height="200" srcset="https://lh3.googleusercontent.com/9EDiaqAY09W507UUFzuQ6cK4f0sFdQIZGr-i19OJHtZK1ODhpjE6lIWpZ6T4IlbcCxnFM8ilead5CZt0u-KhPZeF1dKWKQDICjMpGztCBpQVubDy4TU=w356-h200-n-nu-rw 1x, https://lh3.googleusercontent.com/9EDiaqAY09W507UUFzuQ6cK4f0sFdQIZGr-i19OJHtZK1ODhpjE6lIWpZ6T4IlbcCxnFM8ilead5CZt0u-KhPZeF1dKWKQDICjMpGztCBpQVubDy4TU=w712-h400-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="225" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/9EDiaqAY09W507UUFzuQ6cK4f0sFdQIZGr-i19OJHtZK1ODhpjE6lIWpZ6T4IlbcCxnFM8ilead5CZt0u-KhPZeF1dKWKQDICjMpGztCBpQVubDy4TU=w400-h225-n-nu" width="400">
+    </picture>
+    
+  
+        <div class="glue-card__content">
+          
+          <p class="glue-headline glue-headline--headline-5">AlphaFold</p>
+          <p class="glue-card__description">AlphaFold has revealed millions of intricate 3D protein structures, and is helping scientists understand how all of life’s molecules interact.</p>
+        </div>
+        <div class="glue-card__cta glue-card__cta--arrow">
+          
+          <span class="glue-button glue-button--low-emphasis">
+            <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#arrow-forward"></use>
+  </svg>
+          </span>
+        </div>
+      </div>
+      <gemini-border-gradient class="gemini-border card__gradient">
+    <div class="gemini-border__sub-border" style="width: 490.306px; height: 490.306px;"></div>
+  </gemini-border-gradient>
+    </a>
+  </li><li class="glue-grid__col glue-grid__col--span-6
+                            glue-grid__col--span-4-lg
+                            glue-grid__col--span-4-xl">
+    <a class="glue-card card" data-gtm-tag="card-selection" href="/technologies/gemini/">
+      <div class="glue-card__inner">
+        
+    
+    
+    <picture class="picture glue-card__asset">
+      <source media="(min-width: 1024px)" type="image/webp" width="400" height="225" srcset="https://lh3.googleusercontent.com/VdNH5uoemuWg0x7dA-2JqjZcTZnEQrh5SXca2gFdJPpV3iup3F5LiXm992Eltk0m7l_jntwgRYOyim3JQOG9l2Z0J67wFZBvI7xyTUZLpY5jGgBN=w400-h225-n-nu-rw 1x, https://lh3.googleusercontent.com/VdNH5uoemuWg0x7dA-2JqjZcTZnEQrh5SXca2gFdJPpV3iup3F5LiXm992Eltk0m7l_jntwgRYOyim3JQOG9l2Z0J67wFZBvI7xyTUZLpY5jGgBN=w800-h450-n-nu-rw 2x"><source media="(min-width: 600px)" type="image/webp" width="450" height="255" srcset="https://lh3.googleusercontent.com/VdNH5uoemuWg0x7dA-2JqjZcTZnEQrh5SXca2gFdJPpV3iup3F5LiXm992Eltk0m7l_jntwgRYOyim3JQOG9l2Z0J67wFZBvI7xyTUZLpY5jGgBN=w450-h255-n-nu-rw 1x, https://lh3.googleusercontent.com/VdNH5uoemuWg0x7dA-2JqjZcTZnEQrh5SXca2gFdJPpV3iup3F5LiXm992Eltk0m7l_jntwgRYOyim3JQOG9l2Z0J67wFZBvI7xyTUZLpY5jGgBN=w900-h510-n-nu-rw 2x"><source type="image/webp" width="356" height="200" srcset="https://lh3.googleusercontent.com/VdNH5uoemuWg0x7dA-2JqjZcTZnEQrh5SXca2gFdJPpV3iup3F5LiXm992Eltk0m7l_jntwgRYOyim3JQOG9l2Z0J67wFZBvI7xyTUZLpY5jGgBN=w356-h200-n-nu-rw 1x, https://lh3.googleusercontent.com/VdNH5uoemuWg0x7dA-2JqjZcTZnEQrh5SXca2gFdJPpV3iup3F5LiXm992Eltk0m7l_jntwgRYOyim3JQOG9l2Z0J67wFZBvI7xyTUZLpY5jGgBN=w712-h400-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="225" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/VdNH5uoemuWg0x7dA-2JqjZcTZnEQrh5SXca2gFdJPpV3iup3F5LiXm992Eltk0m7l_jntwgRYOyim3JQOG9l2Z0J67wFZBvI7xyTUZLpY5jGgBN=w400-h225-n-nu" width="400">
+    </picture>
+    
+  
+        <div class="glue-card__content">
+          
+          <p class="glue-headline glue-headline--headline-5">Gemini</p>
+          <p class="glue-card__description">Our new AI model for the agentic era</p>
+        </div>
+        <div class="glue-card__cta glue-card__cta--arrow">
+          
+          <span class="glue-button glue-button--low-emphasis">
+            <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#arrow-forward"></use>
+  </svg>
+          </span>
+        </div>
+      </div>
+      <gemini-border-gradient class="gemini-border card__gradient">
+    <div class="gemini-border__sub-border" style="width: 490.306px; height: 490.306px;"></div>
+  </gemini-border-gradient>
+    </a>
+  </li><li class="glue-grid__col glue-grid__col--span-6
+                            glue-grid__col--span-4-lg
+                            glue-grid__col--span-4-xl">
+    <a class="glue-card card" data-gtm-tag="card-selection" href="/technologies/project-astra/">
+      <div class="glue-card__inner">
+        
+    
+    
+    <picture class="picture glue-card__asset">
+      <source media="(min-width: 1024px)" type="image/webp" width="400" height="225" srcset="https://lh3.googleusercontent.com/iEpy3slnpRTE00a-mmISpLyQdzQGbY4ChI2fHkVYy5ZIXl2zWqYBSU8sn7gPemSkWt9xtDMUAK3CeDRW09Ae55XNfY8skYmcoIFmjawrWLjcFqUXRwE=w400-h225-n-nu-rw 1x, https://lh3.googleusercontent.com/iEpy3slnpRTE00a-mmISpLyQdzQGbY4ChI2fHkVYy5ZIXl2zWqYBSU8sn7gPemSkWt9xtDMUAK3CeDRW09Ae55XNfY8skYmcoIFmjawrWLjcFqUXRwE=w800-h450-n-nu-rw 2x"><source media="(min-width: 600px)" type="image/webp" width="450" height="255" srcset="https://lh3.googleusercontent.com/iEpy3slnpRTE00a-mmISpLyQdzQGbY4ChI2fHkVYy5ZIXl2zWqYBSU8sn7gPemSkWt9xtDMUAK3CeDRW09Ae55XNfY8skYmcoIFmjawrWLjcFqUXRwE=w450-h255-n-nu-rw 1x, https://lh3.googleusercontent.com/iEpy3slnpRTE00a-mmISpLyQdzQGbY4ChI2fHkVYy5ZIXl2zWqYBSU8sn7gPemSkWt9xtDMUAK3CeDRW09Ae55XNfY8skYmcoIFmjawrWLjcFqUXRwE=w900-h510-n-nu-rw 2x"><source type="image/webp" width="356" height="200" srcset="https://lh3.googleusercontent.com/iEpy3slnpRTE00a-mmISpLyQdzQGbY4ChI2fHkVYy5ZIXl2zWqYBSU8sn7gPemSkWt9xtDMUAK3CeDRW09Ae55XNfY8skYmcoIFmjawrWLjcFqUXRwE=w356-h200-n-nu-rw 1x, https://lh3.googleusercontent.com/iEpy3slnpRTE00a-mmISpLyQdzQGbY4ChI2fHkVYy5ZIXl2zWqYBSU8sn7gPemSkWt9xtDMUAK3CeDRW09Ae55XNfY8skYmcoIFmjawrWLjcFqUXRwE=w712-h400-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="225" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/iEpy3slnpRTE00a-mmISpLyQdzQGbY4ChI2fHkVYy5ZIXl2zWqYBSU8sn7gPemSkWt9xtDMUAK3CeDRW09Ae55XNfY8skYmcoIFmjawrWLjcFqUXRwE=w400-h225-n-nu" width="400">
+    </picture>
+    
+  
+        <div class="glue-card__content">
+          
+          <p class="glue-headline glue-headline--headline-5">Project Astra</p>
+          <p class="glue-card__description">A research prototype exploring future capabilities of a universal AI assistant</p>
+        </div>
+        <div class="glue-card__cta glue-card__cta--arrow">
+          
+          <span class="glue-button glue-button--low-emphasis">
+            <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#arrow-forward"></use>
+  </svg>
+          </span>
+        </div>
+      </div>
+      <gemini-border-gradient class="gemini-border card__gradient">
+    <div class="gemini-border__sub-border" style="width: 490.306px; height: 490.306px;"></div>
+  </gemini-border-gradient>
+    </a>
+  </li><li class="glue-grid__col glue-grid__col--span-6
+                            glue-grid__col--span-4-lg
+                            glue-grid__col--span-4-xl">
+    <a class="glue-card card" data-gtm-tag="card-selection" href="/technologies/synthid/">
+      <div class="glue-card__inner">
+        
+    
+    
+    <picture class="picture glue-card__asset">
+      <source media="(min-width: 1024px)" type="image/webp" width="400" height="225" srcset="https://lh3.googleusercontent.com/Hlq6INY55SNpksLpiR1Nx5ZuugW_RW7LLWnvlwy8yelv6xAo8O0hwRNxEACXmQiFfSuJ_v6nhX4zDcOooiZItYfGMzG0ksz_71xMfmhl15E_hFFJEw=w400-h225-n-nu-rw 1x, https://lh3.googleusercontent.com/Hlq6INY55SNpksLpiR1Nx5ZuugW_RW7LLWnvlwy8yelv6xAo8O0hwRNxEACXmQiFfSuJ_v6nhX4zDcOooiZItYfGMzG0ksz_71xMfmhl15E_hFFJEw=w800-h450-n-nu-rw 2x"><source media="(min-width: 600px)" type="image/webp" width="450" height="255" srcset="https://lh3.googleusercontent.com/Hlq6INY55SNpksLpiR1Nx5ZuugW_RW7LLWnvlwy8yelv6xAo8O0hwRNxEACXmQiFfSuJ_v6nhX4zDcOooiZItYfGMzG0ksz_71xMfmhl15E_hFFJEw=w450-h255-n-nu-rw 1x, https://lh3.googleusercontent.com/Hlq6INY55SNpksLpiR1Nx5ZuugW_RW7LLWnvlwy8yelv6xAo8O0hwRNxEACXmQiFfSuJ_v6nhX4zDcOooiZItYfGMzG0ksz_71xMfmhl15E_hFFJEw=w900-h510-n-nu-rw 2x"><source type="image/webp" width="356" height="200" srcset="https://lh3.googleusercontent.com/Hlq6INY55SNpksLpiR1Nx5ZuugW_RW7LLWnvlwy8yelv6xAo8O0hwRNxEACXmQiFfSuJ_v6nhX4zDcOooiZItYfGMzG0ksz_71xMfmhl15E_hFFJEw=w356-h200-n-nu-rw 1x, https://lh3.googleusercontent.com/Hlq6INY55SNpksLpiR1Nx5ZuugW_RW7LLWnvlwy8yelv6xAo8O0hwRNxEACXmQiFfSuJ_v6nhX4zDcOooiZItYfGMzG0ksz_71xMfmhl15E_hFFJEw=w712-h400-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="225" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/Hlq6INY55SNpksLpiR1Nx5ZuugW_RW7LLWnvlwy8yelv6xAo8O0hwRNxEACXmQiFfSuJ_v6nhX4zDcOooiZItYfGMzG0ksz_71xMfmhl15E_hFFJEw=w400-h225-n-nu" width="400">
+    </picture>
+    
+  
+        <div class="glue-card__content">
+          
+          <p class="glue-headline glue-headline--headline-5">SynthID</p>
+          <p class="glue-card__description">Robust and scalable tool for watermarking and identifying AI-generated images</p>
+        </div>
+        <div class="glue-card__cta glue-card__cta--arrow">
+          
+          <span class="glue-button glue-button--low-emphasis">
+            <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#arrow-forward"></use>
+  </svg>
+          </span>
+        </div>
+      </div>
+      <gemini-border-gradient class="gemini-border card__gradient">
+    <div class="gemini-border__sub-border" style="width: 490.306px; height: 490.306px;"></div>
+  </gemini-border-gradient>
+    </a>
+  </li></ul>
+                
+              
+                
+                
+                  
+                  <div class="section-title">
+    
+    <h2 class="glue-headline glue-headline--headline-2 section-title__title gemini-in-view-element" data-in-view="">Responsibility</h2>
+    <div class="glue-headline glue-headline--headline-4 section-title__description gemini-in-view-element" data-in-view=""><p data-block-key="t5sj6">We want AI to benefit the world, so we must be thoughtful about how it’s built and used.</p></div>
+    
+  </div>
+                
+              
+                
+                
+                  
+                  
+
+    
+  <ul class="glue-grid glue-cards cards"><li class="glue-grid__col glue-grid__col--span-6
+                            glue-grid__col--span-6-lg
+                            glue-grid__col--span-6-xl">
+    <a class="glue-card card" data-gtm-tag="card-selection" href="/about/responsibility-safety/">
+      <div class="glue-card__inner">
+        
+    
+    
+    <picture class="picture glue-card__asset">
+      <source media="(min-width: 1024px)" type="image/webp" width="625" height="350" srcset="https://lh3.googleusercontent.com/OkPvii8KHh8AnK4lJITCKYDf8Unr5_jaPAjjF468zwHWQCTAgtwteb7IcQuW3hstG1YNKxhFa1TBfiFWCrkeUWVU6ysB7MfMzE7OPDLvciL4TVrzgQ=w625-h350-n-nu-rw 1x, https://lh3.googleusercontent.com/OkPvii8KHh8AnK4lJITCKYDf8Unr5_jaPAjjF468zwHWQCTAgtwteb7IcQuW3hstG1YNKxhFa1TBfiFWCrkeUWVU6ysB7MfMzE7OPDLvciL4TVrzgQ=w1250-h700-n-nu-rw 2x"><source media="(min-width: 600px)" type="image/webp" width="450" height="255" srcset="https://lh3.googleusercontent.com/OkPvii8KHh8AnK4lJITCKYDf8Unr5_jaPAjjF468zwHWQCTAgtwteb7IcQuW3hstG1YNKxhFa1TBfiFWCrkeUWVU6ysB7MfMzE7OPDLvciL4TVrzgQ=w450-h255-n-nu-rw 1x, https://lh3.googleusercontent.com/OkPvii8KHh8AnK4lJITCKYDf8Unr5_jaPAjjF468zwHWQCTAgtwteb7IcQuW3hstG1YNKxhFa1TBfiFWCrkeUWVU6ysB7MfMzE7OPDLvciL4TVrzgQ=w900-h510-n-nu-rw 2x"><source type="image/webp" width="356" height="200" srcset="https://lh3.googleusercontent.com/OkPvii8KHh8AnK4lJITCKYDf8Unr5_jaPAjjF468zwHWQCTAgtwteb7IcQuW3hstG1YNKxhFa1TBfiFWCrkeUWVU6ysB7MfMzE7OPDLvciL4TVrzgQ=w356-h200-n-nu-rw 1x, https://lh3.googleusercontent.com/OkPvii8KHh8AnK4lJITCKYDf8Unr5_jaPAjjF468zwHWQCTAgtwteb7IcQuW3hstG1YNKxhFa1TBfiFWCrkeUWVU6ysB7MfMzE7OPDLvciL4TVrzgQ=w712-h400-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="350" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/OkPvii8KHh8AnK4lJITCKYDf8Unr5_jaPAjjF468zwHWQCTAgtwteb7IcQuW3hstG1YNKxhFa1TBfiFWCrkeUWVU6ysB7MfMzE7OPDLvciL4TVrzgQ=w625-h350-n-nu" width="625">
+    </picture>
+    
+  
+        <div class="glue-card__content">
+          
+          <p class="glue-headline glue-headline--headline-5">Responsibility &amp; Safety</p>
+          <p class="glue-card__description">We help anticipate a broad spectrum of AI-related risks, explore ways of preventing them from happening, and find ways to address them if they do.</p>
+        </div>
+        <div class="glue-card__cta glue-card__cta--arrow">
+          
+          <span class="glue-button glue-button--low-emphasis">
+            <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#arrow-forward"></use>
+  </svg>
+          </span>
+        </div>
+      </div>
+      <gemini-border-gradient class="gemini-border card__gradient">
+    <div class="gemini-border__sub-border" style="width: 693.432px; height: 693.432px;"></div>
+  </gemini-border-gradient>
+    </a>
+  </li><li class="glue-grid__col glue-grid__col--span-6
+                            glue-grid__col--span-6-lg
+                            glue-grid__col--span-6-xl">
+    <a class="glue-card card" data-gtm-tag="card-selection" href="https://ai.google/responsibility/principles/" rel="noopener" target="_blank">
+      <div class="glue-card__inner">
+        
+    
+    
+    <picture class="picture glue-card__asset">
+      <source media="(min-width: 1024px)" type="image/webp" width="625" height="350" srcset="https://lh3.googleusercontent.com/1G0Qe-CimP0LgqFJplCxdpDCc9e1fXhFzYdYwkZ4NnUiR-Jc3odWTxm1z0RJBvNKiMOkLMnSDHIXS4nZ0jBRBEIuOLbqdNDS7yPrquyyanIMrQKmCA=w625-h350-n-nu-rw 1x, https://lh3.googleusercontent.com/1G0Qe-CimP0LgqFJplCxdpDCc9e1fXhFzYdYwkZ4NnUiR-Jc3odWTxm1z0RJBvNKiMOkLMnSDHIXS4nZ0jBRBEIuOLbqdNDS7yPrquyyanIMrQKmCA=w1250-h700-n-nu-rw 2x"><source media="(min-width: 600px)" type="image/webp" width="450" height="255" srcset="https://lh3.googleusercontent.com/1G0Qe-CimP0LgqFJplCxdpDCc9e1fXhFzYdYwkZ4NnUiR-Jc3odWTxm1z0RJBvNKiMOkLMnSDHIXS4nZ0jBRBEIuOLbqdNDS7yPrquyyanIMrQKmCA=w450-h255-n-nu-rw 1x, https://lh3.googleusercontent.com/1G0Qe-CimP0LgqFJplCxdpDCc9e1fXhFzYdYwkZ4NnUiR-Jc3odWTxm1z0RJBvNKiMOkLMnSDHIXS4nZ0jBRBEIuOLbqdNDS7yPrquyyanIMrQKmCA=w900-h510-n-nu-rw 2x"><source type="image/webp" width="356" height="200" srcset="https://lh3.googleusercontent.com/1G0Qe-CimP0LgqFJplCxdpDCc9e1fXhFzYdYwkZ4NnUiR-Jc3odWTxm1z0RJBvNKiMOkLMnSDHIXS4nZ0jBRBEIuOLbqdNDS7yPrquyyanIMrQKmCA=w356-h200-n-nu-rw 1x, https://lh3.googleusercontent.com/1G0Qe-CimP0LgqFJplCxdpDCc9e1fXhFzYdYwkZ4NnUiR-Jc3odWTxm1z0RJBvNKiMOkLMnSDHIXS4nZ0jBRBEIuOLbqdNDS7yPrquyyanIMrQKmCA=w712-h400-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="350" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/1G0Qe-CimP0LgqFJplCxdpDCc9e1fXhFzYdYwkZ4NnUiR-Jc3odWTxm1z0RJBvNKiMOkLMnSDHIXS4nZ0jBRBEIuOLbqdNDS7yPrquyyanIMrQKmCA=w625-h350-n-nu" width="625">
+    </picture>
+    
+  
+        <div class="glue-card__content">
+          
+          <p class="glue-headline glue-headline--headline-5">AI Principles</p>
+          <p class="glue-card__description">While we are optimistic about the potential of AI, we recognize that advanced technologies can raise important challenges that must be addressed clearly, thoughtfully, and affirmatively.</p>
+        </div>
+        <div class="glue-card__cta glue-card__cta--arrow">
+          
+          <span class="glue-button glue-button--low-emphasis">
+            <svg aria-hidden="true" class="glue-icon" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#open-in-new"></use>
+  </svg>
+          </span>
+        </div>
+      </div>
+      <gemini-border-gradient class="gemini-border card__gradient">
+    <div class="gemini-border__sub-border" style="width: 693.432px; height: 693.432px;"></div>
+  </gemini-border-gradient>
+    </a>
+  </li></ul>
+                
+              
+                
+                
+                  
+                  
+
+<div class="cross-linking glue-grid">
+  <div class="glue-grid__col glue-grid__col--span-4 glue-grid__col--span-12-md">
+    <h2 class="cross-linking__title glue-headline glue-headline--headline-3" id="cross-linking-cc33d00b-f8f1-46f3-b0d0-801ce3ec9c65">
+      Explore our other teams and product areas
+    </h2>
+  </div>
+
+  <nav aria-labelledby="cross-linking-cc33d00b-f8f1-46f3-b0d0-801ce3ec9c65" class="glue-grid__col glue-grid__col--span-8 glue-grid__col--span-12-md cross-linking__links">
+    <div class="card-list">
+    <ul class="glue-cards glue-spacer-4-top glue-spacer-4-bottom glue-grid">
+      
+        <li class="glue-grid__col glue-grid__col--span-12 glue-grid__col--span-12-md glue-grid__col--span-8-lg glue-grid__col--span-4-xl">
+          <a class="glue-card glue-card--list card-list--single" href="https://ai.google/?utm_source=deepmind.google&amp;utm_medium=referral&amp;utm_campaign=gdm&amp;utm_content=" rel="noopener" target="_blank">
+      <div class="glue-card__inner">
+        <div class="glue-card__content">
+          <div class="glue-grid">
+            <p class="glue-headline glue-headline--headline-6 glue-grid__col glue-grid__col--span-5 glue-grid__col--span-12-md">
+              
+    
+    
+    <picture class="picture card-list__icon" aria-hidden="true">
+      <source type="image/webp" width="24" height="24" srcset="https://lh3.googleusercontent.com/lC76XCHXWEyaeodN_jKLz-a0IwmNpiVCV5VtSNj4L0fDrDmky6Hsoo5r6ntgo66qR9yOKqBKlEOE8acOPBOaL4LBTXdn67JIF2F9AdMPbEPZ_-xSLg=w24-h24-n-nu-rw 1x, https://lh3.googleusercontent.com/lC76XCHXWEyaeodN_jKLz-a0IwmNpiVCV5VtSNj4L0fDrDmky6Hsoo5r6ntgo66qR9yOKqBKlEOE8acOPBOaL4LBTXdn67JIF2F9AdMPbEPZ_-xSLg=w48-h48-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="24" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/lC76XCHXWEyaeodN_jKLz-a0IwmNpiVCV5VtSNj4L0fDrDmky6Hsoo5r6ntgo66qR9yOKqBKlEOE8acOPBOaL4LBTXdn67JIF2F9AdMPbEPZ_-xSLg=w24-h24-n-nu" width="24">
+    </picture>
+    
+  Google AI</p>
+            
+            
+          </div>
+        </div>
+        <div class="glue-card__cta glue-card__cta--arrow">
+          <span class="glue-button glue-button--low-emphasis">
+            <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#arrow-forward"></use>
+  </svg>
+          </span>
+        </div>
+      </div>
+      <gemini-border-gradient class="gemini-border card__gradient">
+    <div class="gemini-border__sub-border" style="width: 694.262px; height: 694.262px;"></div>
+  </gemini-border-gradient>
+    </a>
+        </li>
+      
+        <li class="glue-grid__col glue-grid__col--span-12 glue-grid__col--span-12-md glue-grid__col--span-8-lg glue-grid__col--span-4-xl">
+          <a class="glue-card glue-card--list card-list--single" href="https://ai.google.dev/?utm_source=deepmind.google&amp;utm_medium=referral&amp;utm_campaign=gdm&amp;utm_content=" rel="noopener" target="_blank">
+      <div class="glue-card__inner">
+        <div class="glue-card__content">
+          <div class="glue-grid">
+            <p class="glue-headline glue-headline--headline-6 glue-grid__col glue-grid__col--span-5 glue-grid__col--span-12-md">
+              
+    
+    
+    <picture class="picture card-list__icon" aria-hidden="true">
+      <source type="image/webp" width="24" height="24" srcset="https://lh3.googleusercontent.com/lC76XCHXWEyaeodN_jKLz-a0IwmNpiVCV5VtSNj4L0fDrDmky6Hsoo5r6ntgo66qR9yOKqBKlEOE8acOPBOaL4LBTXdn67JIF2F9AdMPbEPZ_-xSLg=w24-h24-n-nu-rw 1x, https://lh3.googleusercontent.com/lC76XCHXWEyaeodN_jKLz-a0IwmNpiVCV5VtSNj4L0fDrDmky6Hsoo5r6ntgo66qR9yOKqBKlEOE8acOPBOaL4LBTXdn67JIF2F9AdMPbEPZ_-xSLg=w48-h48-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="24" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/lC76XCHXWEyaeodN_jKLz-a0IwmNpiVCV5VtSNj4L0fDrDmky6Hsoo5r6ntgo66qR9yOKqBKlEOE8acOPBOaL4LBTXdn67JIF2F9AdMPbEPZ_-xSLg=w24-h24-n-nu" width="24">
+    </picture>
+    
+  Google AI for Developers</p>
+            
+            
+          </div>
+        </div>
+        <div class="glue-card__cta glue-card__cta--arrow">
+          <span class="glue-button glue-button--low-emphasis">
+            <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#arrow-forward"></use>
+  </svg>
+          </span>
+        </div>
+      </div>
+      <gemini-border-gradient class="gemini-border card__gradient">
+    <div class="gemini-border__sub-border" style="width: 694.262px; height: 694.262px;"></div>
+  </gemini-border-gradient>
+    </a>
+        </li>
+      
+        <li class="glue-grid__col glue-grid__col--span-12 glue-grid__col--span-12-md glue-grid__col--span-8-lg glue-grid__col--span-4-xl">
+          <a class="glue-card glue-card--list card-list--single" href="https://aistudio.google.com/app/prompts/new_chat?utm_source=deepmind.google&amp;utm_medium=referral&amp;utm_campaign=gdm&amp;utm_content=" rel="noopener" target="_blank">
+      <div class="glue-card__inner">
+        <div class="glue-card__content">
+          <div class="glue-grid">
+            <p class="glue-headline glue-headline--headline-6 glue-grid__col glue-grid__col--span-5 glue-grid__col--span-12-md">
+              
+    
+    
+    <picture class="picture card-list__icon" aria-hidden="true">
+      <source type="image/webp" width="24" height="24" srcset="https://lh3.googleusercontent.com/RSfVFwb4EE0jbPkTT2dA-PObu_qD4skafiXpcnn8KKFU1bpuQH8a2cAwjbqcKoDJcqh9l2VneswZU4Mslv-c4tQ83R6ylRqftNE4mWx9h50HFY6f=w24-h24-n-nu-rw 1x, https://lh3.googleusercontent.com/RSfVFwb4EE0jbPkTT2dA-PObu_qD4skafiXpcnn8KKFU1bpuQH8a2cAwjbqcKoDJcqh9l2VneswZU4Mslv-c4tQ83R6ylRqftNE4mWx9h50HFY6f=w48-h48-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="24" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/RSfVFwb4EE0jbPkTT2dA-PObu_qD4skafiXpcnn8KKFU1bpuQH8a2cAwjbqcKoDJcqh9l2VneswZU4Mslv-c4tQ83R6ylRqftNE4mWx9h50HFY6f=w24-h24-n-nu" width="24">
+    </picture>
+    
+  Google AI Studio</p>
+            
+            
+          </div>
+        </div>
+        <div class="glue-card__cta glue-card__cta--arrow">
+          <span class="glue-button glue-button--low-emphasis">
+            <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#arrow-forward"></use>
+  </svg>
+          </span>
+        </div>
+      </div>
+      <gemini-border-gradient class="gemini-border card__gradient">
+    <div class="gemini-border__sub-border" style="width: 694.262px; height: 694.262px;"></div>
+  </gemini-border-gradient>
+    </a>
+        </li>
+      
+        <li class="glue-grid__col glue-grid__col--span-12 glue-grid__col--span-12-md glue-grid__col--span-8-lg glue-grid__col--span-4-xl">
+          <a class="glue-card glue-card--list card-list--single" href="https://gemini.google.com/?utm_source=deepmind.google&amp;utm_medium=referral&amp;utm_campaign=gdm&amp;utm_content=" rel="noopener" target="_blank">
+      <div class="glue-card__inner">
+        <div class="glue-card__content">
+          <div class="glue-grid">
+            <p class="glue-headline glue-headline--headline-6 glue-grid__col glue-grid__col--span-5 glue-grid__col--span-12-md">
+              
+    
+    
+    <picture class="picture card-list__icon" aria-hidden="true">
+      <source type="image/webp" width="24" height="24" srcset="https://lh3.googleusercontent.com/fUrcu4pqiGaiWltnYg5qn-X6W4kKma1a3vtuA48fZFpzpmeHeLlD6LCLCd9ScI2t9CSeKs_Du0ire6JsgpuTsH7eDD1Cw2r4dnzaBbkXSuZ-Az1ehw=w24-h24-n-nu-rw 1x, https://lh3.googleusercontent.com/fUrcu4pqiGaiWltnYg5qn-X6W4kKma1a3vtuA48fZFpzpmeHeLlD6LCLCd9ScI2t9CSeKs_Du0ire6JsgpuTsH7eDD1Cw2r4dnzaBbkXSuZ-Az1ehw=w48-h48-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="24" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/fUrcu4pqiGaiWltnYg5qn-X6W4kKma1a3vtuA48fZFpzpmeHeLlD6LCLCd9ScI2t9CSeKs_Du0ire6JsgpuTsH7eDD1Cw2r4dnzaBbkXSuZ-Az1ehw=w24-h24-n-nu" width="24">
+    </picture>
+    
+  Gemini</p>
+            
+            
+          </div>
+        </div>
+        <div class="glue-card__cta glue-card__cta--arrow">
+          <span class="glue-button glue-button--low-emphasis">
+            <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#arrow-forward"></use>
+  </svg>
+          </span>
+        </div>
+      </div>
+      <gemini-border-gradient class="gemini-border card__gradient">
+    <div class="gemini-border__sub-border" style="width: 694.262px; height: 694.262px;"></div>
+  </gemini-border-gradient>
+    </a>
+        </li>
+      
+        <li class="glue-grid__col glue-grid__col--span-12 glue-grid__col--span-12-md glue-grid__col--span-8-lg glue-grid__col--span-4-xl">
+          <a class="glue-card glue-card--list card-list--single" href="https://cloud.google.com/?utm_source=deepmind.google&amp;utm_medium=referral&amp;utm_campaign=gdm&amp;utm_content=" rel="noopener" target="_blank">
+      <div class="glue-card__inner">
+        <div class="glue-card__content">
+          <div class="glue-grid">
+            <p class="glue-headline glue-headline--headline-6 glue-grid__col glue-grid__col--span-5 glue-grid__col--span-12-md">
+              
+    
+    
+    <picture class="picture card-list__icon" aria-hidden="true">
+      <source type="image/webp" width="24" height="24" srcset="https://lh3.googleusercontent.com/DV7Fy9b8UGgJex-dTR56NoXBOAcTE_nZ5nFP7V51aHAsYIsetuYcMVLzLnBG60EajVBQL3HBFyCk5Q9Enhk_mEuUHYXKP7DUIHiC1jyPB1aBDX8lkU8=w24-h24-n-nu-rw 1x, https://lh3.googleusercontent.com/DV7Fy9b8UGgJex-dTR56NoXBOAcTE_nZ5nFP7V51aHAsYIsetuYcMVLzLnBG60EajVBQL3HBFyCk5Q9Enhk_mEuUHYXKP7DUIHiC1jyPB1aBDX8lkU8=w48-h48-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="24" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/DV7Fy9b8UGgJex-dTR56NoXBOAcTE_nZ5nFP7V51aHAsYIsetuYcMVLzLnBG60EajVBQL3HBFyCk5Q9Enhk_mEuUHYXKP7DUIHiC1jyPB1aBDX8lkU8=w24-h24-n-nu" width="24">
+    </picture>
+    
+  Google Cloud</p>
+            
+            
+          </div>
+        </div>
+        <div class="glue-card__cta glue-card__cta--arrow">
+          <span class="glue-button glue-button--low-emphasis">
+            <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#arrow-forward"></use>
+  </svg>
+          </span>
+        </div>
+      </div>
+      <gemini-border-gradient class="gemini-border card__gradient">
+    <div class="gemini-border__sub-border" style="width: 694.262px; height: 694.262px;"></div>
+  </gemini-border-gradient>
+    </a>
+        </li>
+      
+        <li class="glue-grid__col glue-grid__col--span-12 glue-grid__col--span-12-md glue-grid__col--span-8-lg glue-grid__col--span-4-xl">
+          <a class="glue-card glue-card--list card-list--single" href="https://labs.google/?utm_source=deepmind.google&amp;utm_medium=referral&amp;utm_campaign=gdm&amp;utm_content=" rel="noopener" target="_blank">
+      <div class="glue-card__inner">
+        <div class="glue-card__content">
+          <div class="glue-grid">
+            <p class="glue-headline glue-headline--headline-6 glue-grid__col glue-grid__col--span-5 glue-grid__col--span-12-md">
+              
+    
+    
+    <picture class="picture card-list__icon" aria-hidden="true">
+      <source type="image/webp" width="24" height="24" srcset="https://lh3.googleusercontent.com/-I5k1wqPNxVU6MZC-w1tZXEWBqvoBuUQEqm9y0ZtyMYnL9ZNTKIrttG2vcW_9vyu9NObgUrRZk0Fz60z-MV5uMmghls9zIlWGKuOyBxDpFx8TbISug=w24-h24-n-nu-rw 1x, https://lh3.googleusercontent.com/-I5k1wqPNxVU6MZC-w1tZXEWBqvoBuUQEqm9y0ZtyMYnL9ZNTKIrttG2vcW_9vyu9NObgUrRZk0Fz60z-MV5uMmghls9zIlWGKuOyBxDpFx8TbISug=w48-h48-n-nu-rw 2x">
+      <img alt="" class="picture__image" height="24" loading="lazy" role="presentation" src="https://lh3.googleusercontent.com/-I5k1wqPNxVU6MZC-w1tZXEWBqvoBuUQEqm9y0ZtyMYnL9ZNTKIrttG2vcW_9vyu9NObgUrRZk0Fz60z-MV5uMmghls9zIlWGKuOyBxDpFx8TbISug=w24-h24-n-nu" width="24">
+    </picture>
+    
+  Google Labs</p>
+            
+            
+          </div>
+        </div>
+        <div class="glue-card__cta glue-card__cta--arrow">
+          <span class="glue-button glue-button--low-emphasis">
+            <svg aria-hidden="true" class="glue-icon glue-icon--arrow-forward" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#arrow-forward"></use>
+  </svg>
+          </span>
+        </div>
+      </div>
+      <gemini-border-gradient class="gemini-border card__gradient">
+    <div class="gemini-border__sub-border" style="width: 694.262px; height: 694.262px;"></div>
+  </gemini-border-gradient>
+    </a>
+        </li>
+      
+    </ul>
+  </div>
+  </nav>
+</div>
+                
+              
+            </div>
+          
+        
+      
+
+      
+    
+  
+  
+
+  
+
+    </main>
+
+    
+  <footer class="gdm-footer glue-footer" data-column-count="3">
+    <h2 class="glue-visually-hidden">Footer links</h2>
+
+    <section class="glue-grid glue-footer__upper">
+      <section class="glue-grid__col glue-grid__col--span-6 glue-social">
+        <div class="glue-social__group">
+          <h3 class="glue-social__title glue-social__title--inline">Follow us</h3>
+          <ul class="glue-social__list" role="list">
+            <li class="glue-social__item">
+              <a class="glue-social__link" data-gtm-tag="footer-selection" href="https://x.com/googledeepmind" title="Follow us on X" target="_blank" rel="noopener">
+                <svg aria-hidden="true" class="glue-icon glue-icon--24px glue-icon--social" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#x"></use>
+  </svg>
+              </a>
+            </li>
+            <li class="glue-social__item">
+              <a class="glue-social__link" data-gtm-tag="footer-selection" href="https://www.instagram.com/googledeepmind" title="Follow us on Instagram" target="_blank" rel="noopener">
+                <svg aria-hidden="true" class="glue-icon glue-icon--24px glue-icon--social" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#instagram"></use>
+  </svg>
+              </a>
+            </li>
+            <li class="glue-social__item">
+              <a class="glue-social__link" data-gtm-tag="footer-selection" href="https://www.linkedin.com/company/googledeepmind/" title="Follow us on LinkedIn" target="_blank" rel="noopener">
+                <svg aria-hidden="true" class="glue-icon glue-icon--24px glue-icon--social" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#post-linkedin"></use>
+  </svg>
+              </a>
+            </li>
+            <li class="glue-social__item">
+              <a class="glue-social__link" data-gtm-tag="footer-selection" href="https://www.youtube.com/@google_deepmind" title="Follow us on YouTube" target="_blank" rel="noopener">
+                <svg aria-hidden="true" class="glue-icon glue-icon--24px glue-icon--social" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#video-youtube"></use>
+  </svg>
+              </a>
+            </li>
+            <li class="glue-social__item">
+              <a class="glue-social__link" data-gtm-tag="footer-selection" href="https://github.com/google-deepmind" title="Follow us on GitHub" target="_blank" rel="noopener">
+                <svg aria-hidden="true" class="glue-icon glue-icon--24px glue-icon--social" role="presentation">
+    <use href="/static/icons/icons.4f32e13e021e.svg#github"></use>
+  </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </section>
+
+    
+      <div class="glue-footer__site-links">
+        <div class="glue-footer__site-links-grid glue-footer__site-links-grid--3-col">
+          
+            
+              <div class="glue-footer__site-links-column">
+                <h3 class="glue-footer__site-links-header">
+                  <span class="glue-footer__site-links-header-button" id="column-1-toggle">
+                    <span class="glue-footer__site-links-header-text">About</span>
+                    <svg aria-hidden="true" class="glue-icon glue-icon--footer glue-expansion-panel__header-arrow" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#expand-more"></use>
+  </svg>
+                  </span>
+                </h3>
+                <div class="glue-footer__site-links-list" id="column-1-content">
+                  <ul class="glue-no-bullet" role="list">
+                    
+                      <li class="glue-footer__site-links-list-item">
+    <a class="glue-footer__link" data-gtm-tag="footer-selection" href="/about/">About Google DeepMind</a>
+  </li>
+                    
+                      <li class="glue-footer__site-links-list-item">
+    <a class="glue-footer__link" data-gtm-tag="footer-selection" href="/about/responsibility-safety/">Responsibility &amp; Safety</a>
+  </li>
+                    
+                      <li class="glue-footer__site-links-list-item">
+    <a class="glue-footer__link" data-gtm-tag="footer-selection" href="/research/">Research</a>
+  </li>
+                    
+                      <li class="glue-footer__site-links-list-item">
+    <a class="glue-footer__link" data-gtm-tag="footer-selection" href="/technologies/">Technologies</a>
+  </li>
+                    
+                      <li class="glue-footer__site-links-list-item">
+    <a class="glue-footer__link" data-gtm-tag="footer-selection" href="/discover/blog/">Blog</a>
+  </li>
+                    
+                      <li class="glue-footer__site-links-list-item">
+    <a class="glue-footer__link" data-gtm-tag="footer-selection" href="/about/careers/">Careers</a>
+  </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            
+          
+            
+              <div class="glue-footer__site-links-column">
+                <h3 class="glue-footer__site-links-header">
+                  <span class="glue-footer__site-links-header-button" id="column-2-toggle">
+                    <span class="glue-footer__site-links-header-text">Learn more</span>
+                    <svg aria-hidden="true" class="glue-icon glue-icon--footer glue-expansion-panel__header-arrow" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#expand-more"></use>
+  </svg>
+                  </span>
+                </h3>
+                <div class="glue-footer__site-links-list" id="column-2-content">
+                  <ul class="glue-no-bullet" role="list">
+                    
+                      <li class="glue-footer__site-links-list-item">
+    <a class="glue-footer__link" data-gtm-tag="footer-selection" href="/technologies/gemini/">Gemini</a>
+  </li>
+                    
+                      <li class="glue-footer__site-links-list-item">
+    <a class="glue-footer__link" data-gtm-tag="footer-selection" href="/technologies/veo/">Veo</a>
+  </li>
+                    
+                      <li class="glue-footer__site-links-list-item">
+    <a class="glue-footer__link" data-gtm-tag="footer-selection" href="/technologies/imagen-3/">Imagen 3</a>
+  </li>
+                    
+                      <li class="glue-footer__site-links-list-item">
+    <a class="glue-footer__link" data-gtm-tag="footer-selection" href="/technologies/synthid/">SynthID</a>
+  </li>
+                    
+                  </ul>
+                </div>
+              </div>
+            
+          
+            
+              <div class="glue-footer__site-links-column">
+                
+                  <h3 class="glue-footer__site-links-header gdm-footer__form-title">
+                    Sign up for updates on our latest innovations
+                  </h3>
+                
+                <gdm-newsletter>
+    <form action="https://services.google.com/fb/submissions/deepmindgoogle/" class="gdm-sign-up gdm-footer__form" data-gdm-gtm-method="Footer" method="post">
+      <div class="glue-form__element">
+        <label class="mdc-text-field mdc-text-field--outlined glue-text-field mdc-text-field--with-leading-icon mdc-text-field--no-label" id="footer-newsletter-3-text-field">
+          <span class="gdm-sign-up__label" id="footer-newsletter-3-label">Email address</span>
+          <svg aria-hidden="true" class="glue-icon material-icons mdc-text-field__icon mdc-text-field__icon--leading" role="presentation">
+    <use href="/static/glue-icons.87e996bc684c.svg#email"></use>
+  </svg>
+          <input autocomplete="email" class="mdc-text-field__input" name="EmailAddress" type="email" aria-controls="footer-newsletter-3-validation, footer-newsletter-3-response" aria-labelledby="footer-newsletter-3-label" maxlength="320" placeholder="Email address">
+          <span class="mdc-notched-outline mdc-notched-outline--no-label">
+            <span class="mdc-notched-outline__leading"></span>
+            <span class="mdc-notched-outline__trailing"></span>
+          </span>
+        </label>
+        <div class="mdc-text-field-helper-line">
+          <div class="mdc-text-field-helper-text mdc-text-field-helper-text--validation-msg" id="footer-newsletter-3-validation" aria-hidden="true">Please enter a valid email (e.g., "name@example.com")</div>
+          <div aria-hidden="true" class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent gdm-sign-up__response" data-error="Something went wrong, please try again." data-invalid="Please enter a valid email (e.g., &quot;name@example.com&quot;)" data-success="Thank you for signing up" id="footer-newsletter-3-response" role="alert">
+          </div>
+        </div>
+      </div>
+      <input type="hidden" name="LanguagePreference" value="en"><input data-gdm-optin="" type="hidden" name="DeepmindGcmNewsletter" value="unconfirmed"><div class="gdm-sign-up__disclaimer"><p data-block-key="hunvr">I accept Google's Terms and Conditions and acknowledge that my information will be used in accordance with <a href="https://policies.google.com/privacy" rel="noopener" target="_blank">Google's Privacy Policy</a>.</p></div><button type="submit" class="glue-button glue-button--medium-emphasis glue-button--reversed gdm-sign-up__submit">
+          <span class="button__text">Sign up</span>
+        </button></form>
+  </gdm-newsletter>
+              </div>
+            
+          
+        </div>
+      </div>
+    
+
+    <section class="glue-footer__global">
+      <div class="glue-footer__logo">
+        <a data-gtm-tag="footer-selection" href="https://www.google.com" title="Google" target="_blank" rel="noopener">
+          <svg role="presentation" aria-hidden="true" class="glue-footer__logo-img">
+            <use href="/static/glue-icons.87e996bc684c.svg#google-solid-logo"></use>
+          </svg>
+        </a>
+      </div>
+      <ul class="glue-footer__global-links glue-no-bullet" role="list">
+        <li class="glue-footer__global-links-list-item">
+    <a class="glue-footer__link" data-gtm-tag="footer-selection" href="https://about.google/" rel="noopener" target="_blank">About Google</a>
+  </li>
+        <li class="glue-footer__global-links-list-item">
+    <a class="glue-footer__link" data-gtm-tag="footer-selection" href="https://about.google/products/" rel="noopener" target="_blank">Google products</a>
+  </li>
+        <li class="glue-footer__global-links-list-item">
+    <a class="glue-footer__link" data-gtm-tag="footer-selection" href="https://policies.google.com/privacy" rel="noopener" target="_blank">Privacy</a>
+  </li>
+        <li class="glue-footer__global-links-list-item">
+    <a class="glue-footer__link" data-gtm-tag="footer-selection" href="https://policies.google.com/terms" rel="noopener" target="_blank">Terms</a>
+  </li>
+
+        <li aria-hidden="true" class="glue-footer__global-links-list-item">
+          <button aria-hidden="true" class="glue-footer__link glue-cookie-notification-bar-control">Cookies management controls</button>
+        </li>
+      </ul>
+    </section>
+  </footer>
+
+
+    
+      <div class="gdm-modal-container">
+    <div class="gdm-modal-container__backdrop"></div>
+    <div class="gdm-modal-container__loader">
+      <svg class="loader-spinner" width="24px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+  <circle class="loader-spinner__path" fill="none" stroke-width="7" cx="33" cy="33" r="25"></circle>
+</svg>
+    </div>
+    
+  </div>
+    
+
+    <script type="text/javascript" id="www-widgetapi-script" src="https://www.youtube.com/s/player/a5032d18/www-widgetapi.vflset/www-widgetapi.js" async=""></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      function glueCookieNotificationBarLoaded(){(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NRDHXJGK');}
+      function setScrollbarWidth() {
+        const element = document.createElement('div');
+        element.style = "overflow:scroll;position:absolute;visibility:hidden;";
+        document.body.appendChild(element);
+        const width = element.getBoundingClientRect().width;
+        document.documentElement.style.setProperty('--scrollbar-width', `${width}px`);
+        element.remove();
+      }
+
+      window.addEventListener('resize', setScrollbarWidth);
+      setScrollbarWidth();
+    </script>
+    <script src="https://www.gstatic.com/glue/cookienotificationbar/cookienotificationbar.min.js" data-glue-cookie-notification-bar-category="2A"></script>
+    <script src="https://www.youtube.com/player_api"></script>
+    <script src="/static/main.min.7ae85a7e9808.js"></script>
+    
+  <script src="/static/gemini.min.65fc64083e97.js"></script>
+  
+
+  
+</body></html>
